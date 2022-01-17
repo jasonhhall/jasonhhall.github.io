@@ -1,0 +1,653 @@
+{
+  "uid" : "d247106972daeedf",
+  "name" : "CX agent can update cases to resovled status through Interactions tab",
+  "fullName" : "OMNI CHANNEL.CX agent can update cases to resovled status through Interactions tab",
+  "historyId" : "645778092a8841df4855bf8f09a93a1e",
+  "time" : {
+    "start" : 1642351938019,
+    "stop" : 1642352148870,
+    "duration" : 210851
+  },
+  "description" : "Validate CX agent is able to receive a case through Omni-Channel and update case to resovled status through Interactions tab (Omni-Channel Validation E2E)",
+  "descriptionHtml" : "<p>Validate CX agent is able to receive a case through Omni-Channel and update case to resovled status through Interactions tab (Omni-Channel Validation E2E)</p>\n",
+  "status" : "broken",
+  "statusMessage" : "element (\"//div[contains(@class, \"tabsetHeader\")]//ul[contains(@class, \"tabBarItems\")]//li[contains(@class, \"tabItem\") and contains(@class, \"active\")]//button[contains(@title, \"Close\")]\") still not clickable after 50000ms",
+  "statusTrace" : "Error: element (\"//div[contains(@class, \"tabsetHeader\")]//ul[contains(@class, \"tabBarItems\")]//li[contains(@class, \"tabItem\") and contains(@class, \"active\")]//button[contains(@title, \"Close\")]\") still not clickable after 50000ms\n                    at D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Navigation.closeAllOpenTab (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\util\\/main-navigation.js:288:13)\n                    at UserDetail.clickOnLogin (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\page\\/userdetail.js:50:9)\n                    at Context.<anonymous> (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\specs\\twitch-service-console\\omni-channel\\/omni-channel-E2E-validation.spec.js:161:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//div[contains(@class, \"tabsetHeader\")]//ul[contains(@class, \"tabBarItems\")]//li[contains(@class, \"tabItem\") and contains(@class, \"active\")]//button[contains(@title, \"Close\")]\") still not clickable after 50000ms",
+    "statusTrace" : "Error: element (\"//div[contains(@class, \"tabsetHeader\")]//ul[contains(@class, \"tabBarItems\")]//li[contains(@class, \"tabItem\") and contains(@class, \"active\")]//button[contains(@title, \"Close\")]\") still not clickable after 50000ms\n                    at D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Navigation.closeAllOpenTab (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\util\\/main-navigation.js:288:13)\n                    at UserDetail.clickOnLogin (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\page\\/userdetail.js:50:9)\n                    at Context.<anonymous> (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\specs\\twitch-service-console\\omni-channel\\/omni-channel-E2E-validation.spec.js:161:21)",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1642351938025,
+        "stop" : 1642351965718,
+        "duration" : 27693
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to URL: https://twitchsupport--test.lightning.force.com/",
+        "time" : {
+          "start" : 1642351939141,
+          "stop" : 1642351939141,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"daarindo@justin.tv.twitchsupport.test\" in username textbox",
+        "time" : {
+          "start" : 1642351939826,
+          "stop" : 1642351939826,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"*******\" in password textbox",
+        "time" : {
+          "start" : 1642351941019,
+          "stop" : 1642351941019,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642351965626,
+          "stop" : 1642351965626,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642351965717,
+          "stop" : 1642351965717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Navigate to Contact URL",
+      "time" : {
+        "start" : 1642351965718,
+        "stop" : 1642351983176,
+        "duration" : 17458
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0031U00000CI3dIQAT/view",
+        "time" : {
+          "start" : 1642351983176,
+          "stop" : 1642351983176,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Log in to experience as user",
+      "time" : {
+        "start" : 1642351983176,
+        "stop" : 1642352004147,
+        "duration" : 20971
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Experience As User\" button",
+        "time" : {
+          "start" : 1642352004147,
+          "stop" : 1642352004147,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Open Contact Support",
+      "time" : {
+        "start" : 1642352004147,
+        "stop" : 1642352014732,
+        "duration" : 10585
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"\" user-profile link",
+        "time" : {
+          "start" : 1642352004519,
+          "stop" : 1642352004519,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked \"Contact Support\" link",
+        "time" : {
+          "start" : 1642352014732,
+          "stop" : 1642352014732,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Fill up the case submission form and submit",
+      "time" : {
+        "start" : 1642352014732,
+        "stop" : 1642352018586,
+        "duration" : 3854
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Purchases\" selected from category dropdown",
+        "time" : {
+          "start" : 1642352015370,
+          "stop" : 1642352015370,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Fraudulent / Unauthorized charges\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642352015696,
+          "stop" : 1642352015696,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"My account was hacked or stolen resulting in unauthorized charges\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642352015996,
+          "stop" : 1642352015996,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"Subject_2022_01_16_10_52_12\" in subject textbox",
+        "time" : {
+          "start" : 1642352016701,
+          "stop" : 1642352016701,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"Description_2022_01_16_10_52_12\" in description textbox",
+        "time" : {
+          "start" : 1642352017918,
+          "stop" : 1642352017918,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on submit button",
+        "time" : {
+          "start" : 1642352018586,
+          "stop" : 1642352018586,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Verify notification message",
+      "time" : {
+        "start" : 1642352018586,
+        "stop" : 1642352024269,
+        "duration" : 5683
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual success notification message does match expected value (Expected: Your ticket has been submitted. || Actual: Your ticket has been submitted.)",
+        "time" : {
+          "start" : 1642352024268,
+          "stop" : 1642352024268,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Navigate to Contact URL",
+      "time" : {
+        "start" : 1642352024269,
+        "stop" : 1642352042017,
+        "duration" : 17748
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0031U00000CI3dIQAT/view",
+        "time" : {
+          "start" : 1642352042017,
+          "stop" : 1642352042017,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click on View All link",
+      "time" : {
+        "start" : 1642352042017,
+        "stop" : 1642352052766,
+        "duration" : 10749
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"View All\" link in \"Cases\" section",
+        "time" : {
+          "start" : 1642352042765,
+          "stop" : 1642352042765,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Get Owner And Case Number",
+      "time" : {
+        "start" : 1642352052766,
+        "stop" : 1642352053279,
+        "duration" : 513
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Fetched following details for the Subject \"Subject_2022_01_16_10_52_12\" - Case Number: \"04635491\" || Case Owner: \"CS Purchase Support Fraud\"",
+        "time" : {
+          "start" : 1642352053279,
+          "stop" : 1642352053279,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify Case is routed to correct Owner",
+      "time" : {
+        "start" : 1642352053279,
+        "stop" : 1642352053279,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Case owner match (Expected: CS Purchase Support Fraud || Actual: CS Purchase Support Fraud)",
+        "time" : {
+          "start" : 1642352053279,
+          "stop" : 1642352053279,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Close all open tabs",
+      "time" : {
+        "start" : 1642352053279,
+        "stop" : 1642352058811,
+        "duration" : 5532
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642352058811,
+          "stop" : 1642352058811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Navigate to agent detail url",
+      "time" : {
+        "start" : 1642352058811,
+        "stop" : 1642352075457,
+        "duration" : 16646
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to agent detail URL: https://twitchsupport--test.my.salesforce.com/0051U000001Uk3r?noredirect=1&isUserEntityOverride=1&appLayout=setup&noS1Redirect=true",
+        "time" : {
+          "start" : 1642352075457,
+          "stop" : 1642352075457,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Capture agent name and login as agent",
+      "time" : {
+        "start" : 1642352075457,
+        "stop" : 1642352075520,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Retrived value \"Darlene ChaniMaya\" for field \"Name\"",
+        "time" : {
+          "start" : 1642352075520,
+          "stop" : 1642352075520,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Login as CX agent",
+      "time" : {
+        "start" : 1642352075520,
+        "stop" : 1642352148870,
+        "duration" : 73350
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div[contains(@class, \"tabsetHeader\")]//ul[contains(@class, \"tabBarItems\")]//li[contains(@class, \"tabItem\") and contains(@class, \"active\")]//button[contains(@title, \"Close\")]\") still not clickable after 50000ms\n                    at D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Navigation.closeAllOpenTab (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\util\\/main-navigation.js:288:13)\n                    at UserDetail.clickOnLogin (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\page\\/userdetail.js:50:9)\n                    at Context.<anonymous> (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\specs\\twitch-service-console\\omni-channel\\/omni-channel-E2E-validation.spec.js:161:21)",
+      "steps" : [ {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642352098700,
+          "stop" : 1642352098700,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "aa6a9d72eac596d4",
+        "name" : "Console Logs",
+        "source" : "aa6a9d72eac596d4.html",
+        "type" : "text/html",
+        "size" : 1080
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 38
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "OMNI CHANNEL"
+  }, {
+    "name" : "testClass",
+    "value" : "OMNI CHANNEL"
+  }, {
+    "name" : "testMethod",
+    "value" : "CX agent can update cases to resovled status through Interactions tab"
+  }, {
+    "name" : "package",
+    "value" : "OMNI CHANNEL"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d247106972daeedf.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

@@ -1,0 +1,756 @@
+{
+  "uid" : "59a3fbd78c34b2cc",
+  "name" : "Article Header Vaidation - Test 5",
+  "fullName" : "ARTICLE HEADER VALIDATION.Article Header Vaidation - Test 5",
+  "historyId" : "6b9c28514d0643a26b834de5595313a0",
+  "time" : {
+    "start" : 1642347185262,
+    "stop" : 1642347324948,
+    "duration" : 139686
+  },
+  "description" : "Validate the article header for combination of category, sub-category and detail-category",
+  "descriptionHtml" : "<p>Validate the article header for combination of category, sub-category and detail-category</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1642347185264,
+        "stop" : 1642347226230,
+        "duration" : 40966
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to URL: https://twitchsupport--test.lightning.force.com/",
+        "time" : {
+          "start" : 1642347187030,
+          "stop" : 1642347187030,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"daarindo@justin.tv.twitchsupport.test\" in username textbox",
+        "time" : {
+          "start" : 1642347189006,
+          "stop" : 1642347189006,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"*******\" in password textbox",
+        "time" : {
+          "start" : 1642347189429,
+          "stop" : 1642347189429,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642347210146,
+          "stop" : 1642347210146,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642347226230,
+          "stop" : 1642347226230,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Navigate to contact url",
+      "time" : {
+        "start" : 1642347226230,
+        "stop" : 1642347244126,
+        "duration" : 17896
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0033a00002W2ZHY/view",
+        "time" : {
+          "start" : 1642347244126,
+          "stop" : 1642347244126,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Log in to experience as user",
+      "time" : {
+        "start" : 1642347244126,
+        "stop" : 1642347265240,
+        "duration" : 21114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Experience As User\" button",
+        "time" : {
+          "start" : 1642347265240,
+          "stop" : 1642347265240,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Open Contact Support",
+      "time" : {
+        "start" : 1642347265240,
+        "stop" : 1642347276047,
+        "duration" : 10807
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"\" user-profile link",
+        "time" : {
+          "start" : 1642347265557,
+          "stop" : 1642347265557,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked \"Contact Support\" link",
+        "time" : {
+          "start" : 1642347276047,
+          "stop" : 1642347276047,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Fill up the fields and verify article header",
+      "time" : {
+        "start" : 1642347276187,
+        "stop" : 1642347280193,
+        "duration" : 4006
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"General\" selected from category dropdown",
+        "time" : {
+          "start" : 1642347277754,
+          "stop" : 1642347277754,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Generic Issue\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642347278457,
+          "stop" : 1642347278457,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"I'm unable to assign or manage Roles\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642347279311,
+          "stop" : 1642347279311,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual article header contains expected value [Formatted Comparison] (Expected: Managing-Roles-for-your-Channel || Actual: Managing Roles For Your Channel)",
+        "time" : {
+          "start" : 1642347280193,
+          "stop" : 1642347280193,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Fill up the fields and verify article header",
+      "time" : {
+        "start" : 1642347280193,
+        "stop" : 1642347281989,
+        "duration" : 1796
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"General\" selected from category dropdown",
+        "time" : {
+          "start" : 1642347280378,
+          "stop" : 1642347280378,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Generic Issue\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642347280638,
+          "stop" : 1642347280638,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"I have a question about an Extension\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642347280874,
+          "stop" : 1642347280874,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual article header contains expected value [Formatted Comparison] (Expected: how-to-use-extensions || Actual: How to Use Extensions)",
+        "time" : {
+          "start" : 1642347281989,
+          "stop" : 1642347281989,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Fill up the fields and verify article header",
+      "time" : {
+        "start" : 1642347281989,
+        "stop" : 1642347284977,
+        "duration" : 2988
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"General\" selected from category dropdown",
+        "time" : {
+          "start" : 1642347282395,
+          "stop" : 1642347282395,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Broadcast issue\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642347282962,
+          "stop" : 1642347282962,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"My channel is appearing offline\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642347283429,
+          "stop" : 1642347283429,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual article header contains expected value [Formatted Comparison] (Expected: guide-to-broadcast-health-and-using-twitch-inspector || Actual: Guide to Broadcast Health and Using Twitch Inspector)",
+        "time" : {
+          "start" : 1642347284977,
+          "stop" : 1642347284977,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Fill up the fields and verify article header",
+      "time" : {
+        "start" : 1642347284977,
+        "stop" : 1642347287355,
+        "duration" : 2378
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"General\" selected from category dropdown",
+        "time" : {
+          "start" : 1642347285322,
+          "stop" : 1642347285322,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Chat Issue\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642347285902,
+          "stop" : 1642347285902,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Issues connecting to chat\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642347286147,
+          "stop" : 1642347286147,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual article header contains expected value [Formatted Comparison] (Expected: chat-basics || Actual: Chat Basics)",
+        "time" : {
+          "start" : 1642347287355,
+          "stop" : 1642347287355,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Fill up the fields and verify article header",
+      "time" : {
+        "start" : 1642347287355,
+        "stop" : 1642347290117,
+        "duration" : 2762
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"General\" selected from category dropdown",
+        "time" : {
+          "start" : 1642347288423,
+          "stop" : 1642347288423,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Drops\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642347288766,
+          "stop" : 1642347288766,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"I'm having issues connecting my game account\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642347289094,
+          "stop" : 1642347289094,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual article header contains expected value [Formatted Comparison] (Expected: how-to-earn-drops || Actual: How to Earn Drops)",
+        "time" : {
+          "start" : 1642347290117,
+          "stop" : 1642347290117,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Navigate to contact url",
+      "time" : {
+        "start" : 1642347290135,
+        "stop" : 1642347309388,
+        "duration" : 19253
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0033a00002W2ZHY/view",
+        "time" : {
+          "start" : 1642347309388,
+          "stop" : 1642347309388,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Log out",
+      "time" : {
+        "start" : 1642347309388,
+        "stop" : 1642347324948,
+        "duration" : 15560
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on user-profile button",
+        "time" : {
+          "start" : 1642347309747,
+          "stop" : 1642347309747,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on log-out link",
+        "time" : {
+          "start" : 1642347324948,
+          "stop" : 1642347324948,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ {
+      "uid" : "31207501e42a7370",
+      "name" : "Console Logs",
+      "source" : "31207501e42a7370.html",
+      "type" : "text/html",
+      "size" : 13319
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 43
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "ARTICLE HEADER VALIDATION"
+  }, {
+    "name" : "testClass",
+    "value" : "ARTICLE HEADER VALIDATION"
+  }, {
+    "name" : "testMethod",
+    "value" : "Article Header Vaidation - Test 5"
+  }, {
+    "name" : "package",
+    "value" : "ARTICLE HEADER VALIDATION"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd681eda2127d9d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642312520812,
+        "stop" : 1642312651941,
+        "duration" : 131129
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f1b24ec80d7b3ea3",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f1b24ec80d7b3ea3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642347185262,
+          "stop" : 1642347324948,
+          "duration" : 139686
+        }
+      }, {
+        "uid" : "10eee9520ff12430",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/10eee9520ff12430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642312520812,
+          "stop" : 1642312651941,
+          "duration" : 131129
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "59a3fbd78c34b2cc.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

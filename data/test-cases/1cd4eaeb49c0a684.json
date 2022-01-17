@@ -1,0 +1,772 @@
+{
+  "uid" : "1cd4eaeb49c0a684",
+  "name" : "Translate Case from Non-English to English language",
+  "fullName" : "CASE LANGUAGE TRANSLATION.Translate Case from Non-English to English language",
+  "historyId" : "d0456fa94abb859426cdb3fb25eb544a",
+  "time" : {
+    "start" : 1642309562752,
+    "stop" : 1642309740407,
+    "duration" : 177655
+  },
+  "description" : "Validate the user is able to translate case from Non-English to English language",
+  "descriptionHtml" : "<p>Validate the user is able to translate case from Non-English to English language</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1642309562752,
+        "stop" : 1642309596377,
+        "duration" : 33625
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to URL: https://twitchsupport--test.lightning.force.com/",
+        "time" : {
+          "start" : 1642309568481,
+          "stop" : 1642309568481,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"daarindo@justin.tv.twitchsupport.test\" in username textbox",
+        "time" : {
+          "start" : 1642309573701,
+          "stop" : 1642309573701,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"*******\" in password textbox",
+        "time" : {
+          "start" : 1642309575100,
+          "stop" : 1642309575100,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642309596251,
+          "stop" : 1642309596251,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642309596376,
+          "stop" : 1642309596376,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Navigate to Contact URL",
+      "time" : {
+        "start" : 1642309596377,
+        "stop" : 1642309613764,
+        "duration" : 17387
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0033a00002WGQkZ/view",
+        "time" : {
+          "start" : 1642309613764,
+          "stop" : 1642309613764,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Log in to experience as user",
+      "time" : {
+        "start" : 1642309613764,
+        "stop" : 1642309635184,
+        "duration" : 21420
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Experience As User\" button",
+        "time" : {
+          "start" : 1642309635184,
+          "stop" : 1642309635184,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Open Contact Support",
+      "time" : {
+        "start" : 1642309635184,
+        "stop" : 1642309646106,
+        "duration" : 10922
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"\" user-profile link",
+        "time" : {
+          "start" : 1642309635688,
+          "stop" : 1642309635688,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked \"Contact Support\" link",
+        "time" : {
+          "start" : 1642309646106,
+          "stop" : 1642309646106,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Fill up the case submission form and submit",
+      "time" : {
+        "start" : 1642309646106,
+        "stop" : 1642309651094,
+        "duration" : 4988
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"General\" selected from category dropdown",
+        "time" : {
+          "start" : 1642309647905,
+          "stop" : 1642309647905,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Incorporación de afiliados\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642309648500,
+          "stop" : 1642309648500,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"Para cambiar la dirección de correo electrónico, actualiza el correo en tus_2022_01_16_23_05_45\" in subject textbox",
+        "time" : {
+          "start" : 1642309649649,
+          "stop" : 1642309649649,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"Para cambiar la dirección de correo electrónico, actualiza el correo en tus_2022_01_16_23_05_45\" in description textbox",
+        "time" : {
+          "start" : 1642309650947,
+          "stop" : 1642309650947,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on submit button",
+        "time" : {
+          "start" : 1642309651094,
+          "stop" : 1642309651094,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Verify notification message",
+      "time" : {
+        "start" : 1642309651094,
+        "stop" : 1642309659546,
+        "duration" : 8452
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual success notification message does match expected value (Expected: Se ha enviado tu ticket. || Actual: Se ha enviado tu ticket.)",
+        "time" : {
+          "start" : 1642309659545,
+          "stop" : 1642309659546,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Navigate to Contact URL",
+      "time" : {
+        "start" : 1642309659546,
+        "stop" : 1642309677093,
+        "duration" : 17547
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0033a00002WGQkZ/view",
+        "time" : {
+          "start" : 1642309677093,
+          "stop" : 1642309677093,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click On View All Link",
+      "time" : {
+        "start" : 1642309677093,
+        "stop" : 1642309688120,
+        "duration" : 11027
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"View All\" link in \"Cases\" section",
+        "time" : {
+          "start" : 1642309678116,
+          "stop" : 1642309678116,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Capture Owner and Case Number",
+      "time" : {
+        "start" : 1642309688120,
+        "stop" : 1642309688471,
+        "duration" : 351
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Fetched following details for the Subject \"Para cambiar la dirección de correo electrónico, actualiza el correo en tus_2022_01_16_23_05_45\" - Case Number: \"04635472\" || Case Owner: \"CS Affiliates\"",
+        "time" : {
+          "start" : 1642309688471,
+          "stop" : 1642309688471,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify Queue Name",
+      "time" : {
+        "start" : 1642309688471,
+        "stop" : 1642309688487,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Case owner match (Expected: CS Affiliates || Actual: CS Affiliates)",
+        "time" : {
+          "start" : 1642309688487,
+          "stop" : 1642309688487,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click On Case Number",
+      "time" : {
+        "start" : 1642309688487,
+        "stop" : 1642309689328,
+        "duration" : 841
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"04635472\" case-number link",
+        "time" : {
+          "start" : 1642309689328,
+          "stop" : 1642309689328,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click on \"Show Translated Case\" Button",
+      "time" : {
+        "start" : 1642309689328,
+        "stop" : 1642309700163,
+        "duration" : 10835
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Show Translated Case\" button",
+        "time" : {
+          "start" : 1642309700163,
+          "stop" : 1642309700163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click on \"Translated to\" dropdown and select a language",
+      "time" : {
+        "start" : 1642309700163,
+        "stop" : 1642309715722,
+        "duration" : 15559
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Translate to\" dropdown",
+        "time" : {
+          "start" : 1642309703405,
+          "stop" : 1642309703405,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"English\"from \"Translate to\" dropdown",
+        "time" : {
+          "start" : 1642309715722,
+          "stop" : 1642309715722,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Verify the value for Subject and Description",
+      "time" : {
+        "start" : 1642309715722,
+        "stop" : 1642309718503,
+        "duration" : 2781
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual value for field \"Subject\" does match expected value in Case Translation (Expected: To change the email address, update the email on tus_2022_01_16_23_05_45 || Actual: To change the email address, update the email on tus_2022_01_16_23_05_45)",
+        "time" : {
+          "start" : 1642309716013,
+          "stop" : 1642309716013,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual value for field \"Description\" does match expected value in Case Translation (Expected: To change the email address, update the email on tus_2022_01_16_23_05_45 || Actual: To change the email address, update the email on tus_2022_01_16_23_05_45)",
+        "time" : {
+          "start" : 1642309717491,
+          "stop" : 1642309717491,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Verify Email Translation",
+      "time" : {
+        "start" : 1642309718503,
+        "stop" : 1642309724863,
+        "duration" : 6360
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual email translation body does match expected value (Expected: Thank you for contacting Twitch Support || Actual: Hello 3dgarLee,\n                            \n                            Thank you for contacting Twitch Support!\n                            \n                            Based on the issue provided, it looks like we might have some answers!\n                            \n                            “Why are my stats not updating/incorrect?”\n                            \n                            Your Channel Dashboard, in this case - the Path to Affiliate widget, may not always update in real-time. Often, this can take up to 24-48 hours to reflect appropriately.\n                            \n                            “It won’t let me ‘Get Started’.”\n                            \n                            There may be some delays sending you the Affiliate invite! The invite should arrive, once eligible, within the next 24-48 hours.\n                            \n                            “I need help with my onboarding forms.”\n                            \n                            Unfortunately, Twitch Support is unable to assist with completing the Affiliate onboarding forms. You may need to refer to legal guidance for more insight.\n                            \n                            “My onboarding forms are taking forever to review.”\n                            \n                            We understand your frustration, but for security & validation purposes, this review process may take more time than expected. We are unable to expedite this process.\n                            \n                            If these do not answer your question, feel free to reply to this email!\n                            \n                            Regards,\n                            \n                            Twitch Support\n                            \n                            Dies ist eine automatische Antwort-E-Mail, die derzeit nur in Englisch verfügbar ist (sorry!). Das Support-Team von Twitch bearbeitet deine Anfrage.\n                            \n                            Este es un correo de respuesta automática y actualmente solo está disponible en inglés. (¡Lo sentimos!) El equipo de soporte de Twitch está trabajando para resolver tu consulta.\n                            \n                            Ceci est un e-mail généré automatiquement, uniquement disponible en anglais pour le moment (désolé !). L'équipe d'assistance Twitch travaille sur votre demande.\n                            \n                            Questa è un'email di risposta automatica, attualmente disponibile solo in inglese. Ci scusiamo per il disagio. Il supporto di Twitch si sta occupando della tua domanda.\n                            \n                            これは自動応答メールです。申し訳ありませんが、現在英語のみに対応しております。現在Twitchサポートチームがお問い合わせに対応中です。\n                            \n                            자동 응답 이메일로 현재 영어만 지원합니다. (죄송합니다!) Twitch 고객지원 팀에서 문의하신 내용을 조사 중입니다.\n                            \n                            Este é um e-mail de resposta automática, atualmente disponível somente em inglês (desculpe!). A equipe de Suporte da Twitch está trabalhando em sua consulta.\n                            \n                            Это письмо сформировано автоматически и в настоящее время доступно только на английском языке (приносим свои извинения!). Служба поддержки Twitch работает над решением вашей проблемы.\n                            \n                            這封電子郵件為自動回覆，目前只提供英文版 (抱歉！)。Twitch 客服團隊已經在處理您的請求。)",
+        "time" : {
+          "start" : 1642309723852,
+          "stop" : 1642309723852,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Logout of Application",
+      "time" : {
+        "start" : 1642309724863,
+        "stop" : 1642309740407,
+        "duration" : 15544
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on user-profile button",
+        "time" : {
+          "start" : 1642309725234,
+          "stop" : 1642309725234,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on log-out link",
+        "time" : {
+          "start" : 1642309740407,
+          "stop" : 1642309740407,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ {
+      "uid" : "e44f8f2a5864267a",
+      "name" : "Console Logs",
+      "source" : "e44f8f2a5864267a.html",
+      "type" : "text/html",
+      "size" : 1189
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 44
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "CASE LANGUAGE TRANSLATION"
+  }, {
+    "name" : "testClass",
+    "value" : "CASE LANGUAGE TRANSLATION"
+  }, {
+    "name" : "testMethod",
+    "value" : "Translate Case from Non-English to English language"
+  }, {
+    "name" : "package",
+    "value" : "CASE LANGUAGE TRANSLATION"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "26aecbef5202fbe6",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/26aecbef5202fbe6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309562752,
+          "stop" : 1642309740407,
+          "duration" : 177655
+        }
+      }, {
+        "uid" : "24a4efe516f59142",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/24a4efe516f59142",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309562752,
+          "stop" : 1642309740407,
+          "duration" : 177655
+        }
+      }, {
+        "uid" : "b099ba66b4bbbc9e",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b099ba66b4bbbc9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642309562752,
+          "stop" : 1642309740407,
+          "duration" : 177655
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1cd4eaeb49c0a684.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

@@ -1,0 +1,612 @@
+{
+  "uid" : "3578402bb11db8f7",
+  "name" : "Article Header Vaidation - Test 1",
+  "fullName" : "ARTICLE HEADER VALIDATION.Article Header Vaidation - Test 1",
+  "historyId" : "130dcdeb5dffecd666e6636d36120e1b",
+  "time" : {
+    "start" : 1642312271251,
+    "stop" : 1642312381214,
+    "duration" : 109963
+  },
+  "description" : "Validate the article header for combination of category, sub-category and detail-category",
+  "descriptionHtml" : "<p>Validate the article header for combination of category, sub-category and detail-category</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1642312271253,
+        "stop" : 1642312314687,
+        "duration" : 43434
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to URL: https://twitchsupport--test.lightning.force.com/",
+        "time" : {
+          "start" : 1642312272691,
+          "stop" : 1642312272692,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"daarindo@justin.tv.twitchsupport.test\" in username textbox",
+        "time" : {
+          "start" : 1642312276220,
+          "stop" : 1642312276220,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"*******\" in password textbox",
+        "time" : {
+          "start" : 1642312277019,
+          "stop" : 1642312277019,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642312301422,
+          "stop" : 1642312301422,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642312314687,
+          "stop" : 1642312314687,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Navigate to contact url",
+      "time" : {
+        "start" : 1642312314687,
+        "stop" : 1642312333834,
+        "duration" : 19147
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0033a00002W2ZHY/view",
+        "time" : {
+          "start" : 1642312333834,
+          "stop" : 1642312333834,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Log in to experience as user",
+      "time" : {
+        "start" : 1642312333834,
+        "stop" : 1642312354977,
+        "duration" : 21143
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Experience As User\" button",
+        "time" : {
+          "start" : 1642312354977,
+          "stop" : 1642312354977,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Open Contact Support",
+      "time" : {
+        "start" : 1642312354977,
+        "stop" : 1642312365659,
+        "duration" : 10682
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"\" user-profile link",
+        "time" : {
+          "start" : 1642312355360,
+          "stop" : 1642312355360,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked \"Contact Support\" link",
+        "time" : {
+          "start" : 1642312365659,
+          "stop" : 1642312365659,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Fill up the fields and verify article header",
+      "time" : {
+        "start" : 1642312365671,
+        "stop" : 1642312369422,
+        "duration" : 3751
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Account/Login Issues\" selected from category dropdown",
+        "time" : {
+          "start" : 1642312366631,
+          "stop" : 1642312366631,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Reactivate Account\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642312367564,
+          "stop" : 1642312367564,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual article header contains expected value [Formatted Comparison] (Expected: account-reactivation || Actual: Account Reactivation)",
+        "time" : {
+          "start" : 1642312369422,
+          "stop" : 1642312369422,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Fill up the fields and verify article header",
+      "time" : {
+        "start" : 1642312369422,
+        "stop" : 1642312372288,
+        "duration" : 2866
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Account/Login Issues\" selected from category dropdown",
+        "time" : {
+          "start" : 1642312369631,
+          "stop" : 1642312369631,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Changing username\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642312370314,
+          "stop" : 1642312370314,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual article header contains expected value [Formatted Comparison] (Expected: username-rename-and-recycling-policies || Actual: Username Rename and Recycling Policies)",
+        "time" : {
+          "start" : 1642312372288,
+          "stop" : 1642312372288,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Fill up the fields and verify article header",
+      "time" : {
+        "start" : 1642312372288,
+        "stop" : 1642312375867,
+        "duration" : 3579
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Account/Login Issues\" selected from category dropdown",
+        "time" : {
+          "start" : 1642312373600,
+          "stop" : 1642312373600,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Logging In\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642312374237,
+          "stop" : 1642312374237,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"I have forgotten my password\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642312374841,
+          "stop" : 1642312374841,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual article header contains expected value [Formatted Comparison] (Expected: twitch-account-access-login-issues-guide || Actual: Twitch Account Access/Login Issues Guide)",
+        "time" : {
+          "start" : 1642312375867,
+          "stop" : 1642312375867,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Fill up the fields and verify article header",
+      "time" : {
+        "start" : 1642312375867,
+        "stop" : 1642312378852,
+        "duration" : 2985
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Account/Login Issues\" selected from category dropdown",
+        "time" : {
+          "start" : 1642312376114,
+          "stop" : 1642312376114,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Logging In\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642312377459,
+          "stop" : 1642312377459,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"My account has been hacked or stolen (without charges)\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642312377970,
+          "stop" : 1642312377970,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual article header contains expected value [Formatted Comparison] (Expected: account-hacked || Actual: Account hacked, what do I do?)",
+        "time" : {
+          "start" : 1642312378852,
+          "stop" : 1642312378852,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Fill up the fields and verify article header",
+      "time" : {
+        "start" : 1642312378852,
+        "stop" : 1642312381203,
+        "duration" : 2351
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Account/Login Issues\" selected from category dropdown",
+        "time" : {
+          "start" : 1642312379050,
+          "stop" : 1642312379050,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Email Issues\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642312379422,
+          "stop" : 1642312379422,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Email based new device login code\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642312379723,
+          "stop" : 1642312379723,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual article header contains expected value [Formatted Comparison] (Expected: new-device-and-location-verification || Actual: New Device and Location Verification)",
+        "time" : {
+          "start" : 1642312381203,
+          "stop" : 1642312381203,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ {
+      "uid" : "21115f1af6d6ef15",
+      "name" : "Console Logs",
+      "source" : "21115f1af6d6ef15.html",
+      "type" : "text/html",
+      "size" : 13753
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 36
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "ARTICLE HEADER VALIDATION"
+  }, {
+    "name" : "testClass",
+    "value" : "ARTICLE HEADER VALIDATION"
+  }, {
+    "name" : "testMethod",
+    "value" : "Article Header Vaidation - Test 1"
+  }, {
+    "name" : "package",
+    "value" : "ARTICLE HEADER VALIDATION"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3578402bb11db8f7.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

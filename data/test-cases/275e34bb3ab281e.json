@@ -1,0 +1,1088 @@
+{
+  "uid" : "275e34bb3ab281e",
+  "name" : "CX agent can recieve, update, and modify cases and via the Interactions tab",
+  "fullName" : "OMNI CHANNEL.CX agent can recieve, update, and modify cases and via the Interactions tab",
+  "historyId" : "f8a64a3127e2f74dfb1beaa8cef24172",
+  "time" : {
+    "start" : 1642351590127,
+    "stop" : 1642351906119,
+    "duration" : 315992
+  },
+  "description" : "Validate CX agent is able to receive a case using Omni Channel and update (various) statuses and comment for case through Interactions tab",
+  "descriptionHtml" : "<p>Validate CX agent is able to receive a case using Omni Channel and update (various) statuses and comment for case through Interactions tab</p>\n",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <a aria-selected=\"false\" data-tab-name=\"Case.Update_Case\" role=\"tab\" aria-controls=\"7141:0\" tabindex=\"-1\" title=\"Update Case\" class=\"tabHeader\" data-aura-rendered-by=\"7174:0\" href=\"javascript:void(0);\" data-refid=\"tab-name\">...</a> is not clickable at point (415, 292). Other element would receive the click: <one-record-home-flexipage2 data-aura-rendered-by=\"6846:0\" forcegenerated-adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view_adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view-host=\"\"></one-record-home-flexipage2>\n                  (Session info: headless chrome=97.0.4692.71)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x0096FDC3+2555331]\n                \tOrdinal0 [0x009077F1+2127857]\n                \tOrdinal0 [0x00802E08+1060360]\n                \tOrdinal0 [0x008348CF+1263823]\n                \tOrdinal0 [0x00832B10+1256208]\n                \tOrdinal0 [0x0083076B+1247083]\n                \tOrdinal0 [0x0082F559+1242457]\n                \tOrdinal0 [0x00824FB3+1200051]\n                \tOrdinal0 [0x00847B0C+1342220]\n                \tOrdinal0 [0x00824984+1198468]\n                \tOrdinal0 [0x00847C14+1342484]\n                \tOrdinal0 [0x008575FA+1406458]\n                \tOrdinal0 [0x00847976+1341814]\n                \tOrdinal0 [0x008236B6+1193654]\n                \tOrdinal0 [0x00824546+1197382]\n                \tGetHandleVerifier [0x00B09622+1619522]\n                \tGetHandleVerifier [0x00BB882C+2336844]\n                \tGetHandleVerifier [0x00A023E1+541697]\n                \tGetHandleVerifier [0x00A01443+537699]\n                \tOrdinal0 [0x0090D18E+2150798]\n                \tOrdinal0 [0x00911518+2168088]\n                \tOrdinal0 [0x00911660+2168416]\n                \tOrdinal0 [0x0091B330+2208560]\n                \tBaseThreadInitThunk [0x772AFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x776E7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x776E7A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <a aria-selected=\"false\" data-tab-name=\"Case.Update_Case\" role=\"tab\" aria-controls=\"7141:0\" tabindex=\"-1\" title=\"Update Case\" class=\"tabHeader\" data-aura-rendered-by=\"7174:0\" href=\"javascript:void(0);\" data-refid=\"tab-name\">...</a> is not clickable at point (415, 292). Other element would receive the click: <one-record-home-flexipage2 data-aura-rendered-by=\"6846:0\" forcegenerated-adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view_adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view-host=\"\"></one-record-home-flexipage2>\n                  (Session info: headless chrome=97.0.4692.71)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x0096FDC3+2555331]\n                \tOrdinal0 [0x009077F1+2127857]\n                \tOrdinal0 [0x00802E08+1060360]\n                \tOrdinal0 [0x008348CF+1263823]\n                \tOrdinal0 [0x00832B10+1256208]\n                \tOrdinal0 [0x0083076B+1247083]\n                \tOrdinal0 [0x0082F559+1242457]\n                \tOrdinal0 [0x00824FB3+1200051]\n                \tOrdinal0 [0x00847B0C+1342220]\n                \tOrdinal0 [0x00824984+1198468]\n                \tOrdinal0 [0x00847C14+1342484]\n                \tOrdinal0 [0x008575FA+1406458]\n                \tOrdinal0 [0x00847976+1341814]\n                \tOrdinal0 [0x008236B6+1193654]\n                \tOrdinal0 [0x00824546+1197382]\n                \tGetHandleVerifier [0x00B09622+1619522]\n                \tGetHandleVerifier [0x00BB882C+2336844]\n                \tGetHandleVerifier [0x00A023E1+541697]\n                \tGetHandleVerifier [0x00A01443+537699]\n                \tOrdinal0 [0x0090D18E+2150798]\n                \tOrdinal0 [0x00911518+2168088]\n                \tOrdinal0 [0x00911660+2168416]\n                \tOrdinal0 [0x0091B330+2208560]\n                \tBaseThreadInitThunk [0x772AFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x776E7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x776E7A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1642351590127,
+        "stop" : 1642351616825,
+        "duration" : 26698
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to URL: https://twitchsupport--test.lightning.force.com/",
+        "time" : {
+          "start" : 1642351591798,
+          "stop" : 1642351591798,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"daarindo@justin.tv.twitchsupport.test\" in username textbox",
+        "time" : {
+          "start" : 1642351594422,
+          "stop" : 1642351594422,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"*******\" in password textbox",
+        "time" : {
+          "start" : 1642351595384,
+          "stop" : 1642351595384,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642351616705,
+          "stop" : 1642351616705,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642351616825,
+          "stop" : 1642351616825,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Navigate to Contact URL",
+      "time" : {
+        "start" : 1642351616825,
+        "stop" : 1642351634147,
+        "duration" : 17322
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0031U00000G4NHOQA3/view",
+        "time" : {
+          "start" : 1642351634147,
+          "stop" : 1642351634147,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Log in to experience as user",
+      "time" : {
+        "start" : 1642351634147,
+        "stop" : 1642351655031,
+        "duration" : 20884
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Experience As User\" button",
+        "time" : {
+          "start" : 1642351655031,
+          "stop" : 1642351655031,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Open Contact Support",
+      "time" : {
+        "start" : 1642351655031,
+        "stop" : 1642351665810,
+        "duration" : 10779
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"\" user-profile link",
+        "time" : {
+          "start" : 1642351655520,
+          "stop" : 1642351655520,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked \"Contact Support\" link",
+        "time" : {
+          "start" : 1642351665810,
+          "stop" : 1642351665810,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Fill up the case submission form and submit",
+      "time" : {
+        "start" : 1642351665810,
+        "stop" : 1642351668444,
+        "duration" : 2634
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Twitch Apps - Desktop, TV, Web, Mobile and Consoles\" selected from category dropdown",
+        "time" : {
+          "start" : 1642351666358,
+          "stop" : 1642351666358,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Twitch Desktop App\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642351666732,
+          "stop" : 1642351666732,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Installing or Launching\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642351666978,
+          "stop" : 1642351666978,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"Subject_2022_01_16_10_46_19\" in subject textbox",
+        "time" : {
+          "start" : 1642351667500,
+          "stop" : 1642351667500,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"Description_2022_01_16_10_46_19\" in description textbox",
+        "time" : {
+          "start" : 1642351668177,
+          "stop" : 1642351668177,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on submit button",
+        "time" : {
+          "start" : 1642351668444,
+          "stop" : 1642351668444,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Verify notification message",
+      "time" : {
+        "start" : 1642351668444,
+        "stop" : 1642351675887,
+        "duration" : 7443
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual success notification message does match expected value (Expected: Your ticket has been submitted. || Actual: Your ticket has been submitted.)",
+        "time" : {
+          "start" : 1642351675887,
+          "stop" : 1642351675887,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Navigate to Contact URL",
+      "time" : {
+        "start" : 1642351675887,
+        "stop" : 1642351693594,
+        "duration" : 17707
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0031U00000G4NHOQA3/view",
+        "time" : {
+          "start" : 1642351693594,
+          "stop" : 1642351693594,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click on View All link",
+      "time" : {
+        "start" : 1642351693594,
+        "stop" : 1642351704509,
+        "duration" : 10915
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"View All\" link in \"Cases\" section",
+        "time" : {
+          "start" : 1642351694501,
+          "stop" : 1642351694501,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Get Owner And Case Number",
+      "time" : {
+        "start" : 1642351704509,
+        "stop" : 1642351705086,
+        "duration" : 577
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Fetched following details for the Subject \"Subject_2022_01_16_10_46_19\" - Case Number: \"04635489\" || Case Owner: \"CS Client Support\"",
+        "time" : {
+          "start" : 1642351705086,
+          "stop" : 1642351705086,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify Case is routed to correct Owner",
+      "time" : {
+        "start" : 1642351705086,
+        "stop" : 1642351705086,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Case owner match (Expected: CS Client Support || Actual: CS Client Support)",
+        "time" : {
+          "start" : 1642351705086,
+          "stop" : 1642351705086,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Close all open tabs",
+      "time" : {
+        "start" : 1642351705086,
+        "stop" : 1642351710299,
+        "duration" : 5213
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642351710299,
+          "stop" : 1642351710299,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Navigate to agent detail url",
+      "time" : {
+        "start" : 1642351710299,
+        "stop" : 1642351727718,
+        "duration" : 17419
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to agent detail URL: https://twitchsupport--test.my.salesforce.com/0051U000001Uk3M?noredirect=1&isUserEntityOverride=1&appLayout=setup&noS1Redirect=true",
+        "time" : {
+          "start" : 1642351727718,
+          "stop" : 1642351727718,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Capture agent name and login as agent",
+      "time" : {
+        "start" : 1642351727718,
+        "stop" : 1642351757755,
+        "duration" : 30037
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Retrived value \"Michael Lim\" for field \"Name\"",
+        "time" : {
+          "start" : 1642351727816,
+          "stop" : 1642351727816,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642351751630,
+          "stop" : 1642351751630,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642351757755,
+          "stop" : 1642351757755,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Open omni-channel drawer",
+      "time" : {
+        "start" : 1642351757755,
+        "stop" : 1642351761252,
+        "duration" : 3497
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Omni-Channel (Drawer)\" button",
+        "time" : {
+          "start" : 1642351761252,
+          "stop" : 1642351761252,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Set and verfiy omni-channel status as Available",
+      "time" : {
+        "start" : 1642351761252,
+        "stop" : 1642351785553,
+        "duration" : 24301
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642351765169,
+          "stop" : 1642351765169,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Available\" status from status drop down",
+        "time" : {
+          "start" : 1642351785381,
+          "stop" : 1642351785381,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Available || Actual: Available)",
+        "time" : {
+          "start" : 1642351785553,
+          "stop" : 1642351785553,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Accept the new case and minimize omni-channel",
+      "time" : {
+        "start" : 1642351785553,
+        "stop" : 1642351895699,
+        "duration" : 110146
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on case-number \"04635427\" from omni-channel drawer",
+        "time" : {
+          "start" : 1642351813893,
+          "stop" : 1642351813893,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642351818055,
+          "stop" : 1642351818055,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on case-number \"04635428\" from omni-channel drawer",
+        "time" : {
+          "start" : 1642351826458,
+          "stop" : 1642351826458,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642351830747,
+          "stop" : 1642351830747,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on case-number \"04635429\" from omni-channel drawer",
+        "time" : {
+          "start" : 1642351839045,
+          "stop" : 1642351839045,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642351843441,
+          "stop" : 1642351843441,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on case-number \"04635453\" from omni-channel drawer",
+        "time" : {
+          "start" : 1642351851798,
+          "stop" : 1642351851798,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642351855966,
+          "stop" : 1642351855966,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on case-number \"04635454\" from omni-channel drawer",
+        "time" : {
+          "start" : 1642351864431,
+          "stop" : 1642351864431,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642351868921,
+          "stop" : 1642351868921,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on case-number \"04635455\" from omni-channel drawer",
+        "time" : {
+          "start" : 1642351877263,
+          "stop" : 1642351877263,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642351881711,
+          "stop" : 1642351881711,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on case-number \"04635489\" from omni-channel drawer",
+        "time" : {
+          "start" : 1642351890178,
+          "stop" : 1642351890178,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Minimize \"Omni-Channel\" drawer",
+        "time" : {
+          "start" : 1642351890695,
+          "stop" : 1642351890695,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 14
+    }, {
+      "name" : "Verify case-detail opened up for selected case-number",
+      "time" : {
+        "start" : 1642351895699,
+        "stop" : 1642351895778,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual value for \"Case Number\" does match expected value in section \"Header\" (Expected: 04635489 || Actual: 04635489)",
+        "time" : {
+          "start" : 1642351895778,
+          "stop" : 1642351895778,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify queue name for selected case-number",
+      "time" : {
+        "start" : 1642351895778,
+        "stop" : 1642351895863,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual queue name \"CS Client Support\" is part of expected queue name \"CS Client Support\"",
+        "time" : {
+          "start" : 1642351895863,
+          "stop" : 1642351895863,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify owner-id for selected case-number",
+      "time" : {
+        "start" : 1642351895863,
+        "stop" : 1642351895937,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual owner-id does match expected value [formatted comparison] (Expected: Michael Lim || Actual: Michael Lim)",
+        "time" : {
+          "start" : 1642351895937,
+          "stop" : 1642351895937,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Update case status (On Hold) on \"Update Case\" tab within \"Interactions\" tab and verify Case Status",
+      "time" : {
+        "start" : 1642351895937,
+        "stop" : 1642351906119,
+        "duration" : 10182
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x0096FDC3+2555331]\n                \tOrdinal0 [0x009077F1+2127857]\n                \tOrdinal0 [0x00802E08+1060360]\n                \tOrdinal0 [0x008348CF+1263823]\n                \tOrdinal0 [0x00832B10+1256208]\n                \tOrdinal0 [0x0083076B+1247083]\n                \tOrdinal0 [0x0082F559+1242457]\n                \tOrdinal0 [0x00824FB3+1200051]\n                \tOrdinal0 [0x00847B0C+1342220]\n                \tOrdinal0 [0x00824984+1198468]\n                \tOrdinal0 [0x00847C14+1342484]\n                \tOrdinal0 [0x008575FA+1406458]\n                \tOrdinal0 [0x00847976+1341814]\n                \tOrdinal0 [0x008236B6+1193654]\n                \tOrdinal0 [0x00824546+1197382]\n                \tGetHandleVerifier [0x00B09622+1619522]\n                \tGetHandleVerifier [0x00BB882C+2336844]\n                \tGetHandleVerifier [0x00A023E1+541697]\n                \tGetHandleVerifier [0x00A01443+537699]\n                \tOrdinal0 [0x0090D18E+2150798]\n                \tOrdinal0 [0x00911518+2168088]\n                \tOrdinal0 [0x00911660+2168416]\n                \tOrdinal0 [0x0091B330+2208560]\n                \tBaseThreadInitThunk [0x772AFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x776E7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x776E7A6E+238]\n                ",
+      "steps" : [ {
+        "name" : "Clicked on \"Interactions (Link)\" tab",
+        "time" : {
+          "start" : 1642351899304,
+          "stop" : 1642351899304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "f87e93dead460751",
+        "name" : "Console Logs",
+        "source" : "f87e93dead460751.html",
+        "type" : "text/html",
+        "size" : 1226
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 67
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "OMNI CHANNEL"
+  }, {
+    "name" : "testClass",
+    "value" : "OMNI CHANNEL"
+  }, {
+    "name" : "testMethod",
+    "value" : "CX agent can recieve, update, and modify cases and via the Interactions tab"
+  }, {
+    "name" : "package",
+    "value" : "OMNI CHANNEL"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "275e34bb3ab281e.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

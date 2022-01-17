@@ -1,0 +1,799 @@
+{
+  "uid" : "a7b355557000c5d4",
+  "name" : "Verify - Date of Birth and IP Address are Partial, Phone Number and Email are Valid",
+  "fullName" : "RECOVERY VALIDATION.Verify - Date of Birth and IP Address are Partial, Phone Number and Email are Valid",
+  "historyId" : "c1dddab7d672cad657a6341bee79c6f9",
+  "time" : {
+    "start" : 1642347638459,
+    "stop" : 1642347847359,
+    "duration" : 208900
+  },
+  "description" : "Validate recovery point and recovery status where Date of Birth and IP Address are Partial, Phone Number and Email are Valid",
+  "descriptionHtml" : "<p>Validate recovery point and recovery status where Date of Birth and IP Address are Partial, Phone Number and Email are Valid</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1642347638466,
+        "stop" : 1642347682820,
+        "duration" : 44354
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to URL: https://twitchsupport--test.lightning.force.com/",
+        "time" : {
+          "start" : 1642347640150,
+          "stop" : 1642347640150,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"daarindo@justin.tv.twitchsupport.test\" in username textbox",
+        "time" : {
+          "start" : 1642347642049,
+          "stop" : 1642347642049,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"*******\" in password textbox",
+        "time" : {
+          "start" : 1642347642566,
+          "stop" : 1642347642566,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642347667430,
+          "stop" : 1642347667430,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642347682820,
+          "stop" : 1642347682820,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Navigate to Contact URL",
+      "time" : {
+        "start" : 1642347682820,
+        "stop" : 1642347700115,
+        "duration" : 17295
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0031U00000Zh9B7QAJ/view",
+        "time" : {
+          "start" : 1642347700115,
+          "stop" : 1642347700115,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Log in to experience as user",
+      "time" : {
+        "start" : 1642347700115,
+        "stop" : 1642347721208,
+        "duration" : 21093
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Experience As User\" button",
+        "time" : {
+          "start" : 1642347721208,
+          "stop" : 1642347721208,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Open Contact Support",
+      "time" : {
+        "start" : 1642347721208,
+        "stop" : 1642347731770,
+        "duration" : 10562
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"\" user-profile link",
+        "time" : {
+          "start" : 1642347721538,
+          "stop" : 1642347721538,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked \"Contact Support\" link",
+        "time" : {
+          "start" : 1642347731770,
+          "stop" : 1642347731770,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Fill up the case submission form and submit",
+      "time" : {
+        "start" : 1642347731770,
+        "stop" : 1642347734840,
+        "duration" : 3070
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642347732357,
+          "stop" : 1642347732357,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Notifications issue\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642347732715,
+          "stop" : 1642347732715,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Getting notifications when others go live\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642347733014,
+          "stop" : 1642347733014,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"Subject_2022_01_16_09_40_30\" in subject textbox",
+        "time" : {
+          "start" : 1642347733756,
+          "stop" : 1642347733756,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"Description_2022_01_16_09_40_30\" in description textbox",
+        "time" : {
+          "start" : 1642347734634,
+          "stop" : 1642347734634,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on submit button",
+        "time" : {
+          "start" : 1642347734840,
+          "stop" : 1642347734840,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Verify notification message",
+      "time" : {
+        "start" : 1642347734840,
+        "stop" : 1642347742265,
+        "duration" : 7425
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual success notification message does match expected value (Expected: Your ticket has been submitted. || Actual: Your ticket has been submitted.)",
+        "time" : {
+          "start" : 1642347742265,
+          "stop" : 1642347742265,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Navigate to Contact URL",
+      "time" : {
+        "start" : 1642347742265,
+        "stop" : 1642347760188,
+        "duration" : 17923
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0031U00000Zh9B7QAJ/view",
+        "time" : {
+          "start" : 1642347760188,
+          "stop" : 1642347760188,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click On View All Link",
+      "time" : {
+        "start" : 1642347760188,
+        "stop" : 1642347771181,
+        "duration" : 10993
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"View All\" link in \"Cases\" section",
+        "time" : {
+          "start" : 1642347761175,
+          "stop" : 1642347761175,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Capture Owner and Case Number",
+      "time" : {
+        "start" : 1642347771181,
+        "stop" : 1642347771949,
+        "duration" : 768
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Fetched following details for the Subject \"Subject_2022_01_16_09_40_30\" - Case Number: \"04635482\" || Case Owner: \"CS Affiliates\"",
+        "time" : {
+          "start" : 1642347771949,
+          "stop" : 1642347771949,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify Queue Name",
+      "time" : {
+        "start" : 1642347771949,
+        "stop" : 1642347771949,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Case owner match (Expected: CS Affiliates || Actual: CS Affiliates)",
+        "time" : {
+          "start" : 1642347771949,
+          "stop" : 1642347771949,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click On Case Number",
+      "time" : {
+        "start" : 1642347771949,
+        "stop" : 1642347787830,
+        "duration" : 15881
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"04635482\" case-number link",
+        "time" : {
+          "start" : 1642347787830,
+          "stop" : 1642347787830,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click On Recovery Validation Down Arrow Button",
+      "time" : {
+        "start" : 1642347787830,
+        "stop" : 1642347798233,
+        "duration" : 10403
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Recovery Validation\" button",
+        "time" : {
+          "start" : 1642347798233,
+          "stop" : 1642347798233,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Select Recovery Validation (Radio Buttons)",
+      "time" : {
+        "start" : 1642347798233,
+        "stop" : 1642347818842,
+        "duration" : 20609
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Selected \"Partial\"  for \"Date of Birth\" within \"Recovery Validation\"",
+        "time" : {
+          "start" : 1642347803407,
+          "stop" : 1642347803407,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Partial\"  for \"Ip Address\" within \"Recovery Validation\"",
+        "time" : {
+          "start" : 1642347808526,
+          "stop" : 1642347808526,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Valid\"  for \"Email\" within \"Recovery Validation\"",
+        "time" : {
+          "start" : 1642347813737,
+          "stop" : 1642347813737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Valid\"  for \"Phone Number\" within \"Recovery Validation\"",
+        "time" : {
+          "start" : 1642347818841,
+          "stop" : 1642347818841,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Click On Save Button",
+      "time" : {
+        "start" : 1642347818842,
+        "stop" : 1642347829191,
+        "duration" : 10349
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Save\" button within \"Recover Validation\"",
+        "time" : {
+          "start" : 1642347829191,
+          "stop" : 1642347829191,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify Points and Status Value",
+      "time" : {
+        "start" : 1642347829191,
+        "stop" : 1642347831616,
+        "duration" : 2425
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual recovery point for field \"Recovery Points\" does match expected value (Expected: 2.5 || Actual: 2.5)",
+        "time" : {
+          "start" : 1642347829387,
+          "stop" : 1642347829387,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual recovery point for field \"Recovery Approval Status\" does match expected value (Expected: Password Reset Approved || Actual: Password Reset Approved)",
+        "time" : {
+          "start" : 1642347830598,
+          "stop" : 1642347830598,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Logout of Application",
+      "time" : {
+        "start" : 1642347831616,
+        "stop" : 1642347847348,
+        "duration" : 15732
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on user-profile button",
+        "time" : {
+          "start" : 1642347832012,
+          "stop" : 1642347832012,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on log-out link",
+        "time" : {
+          "start" : 1642347847348,
+          "stop" : 1642347847348,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ {
+      "uid" : "3be4ef89c326e3bd",
+      "name" : "Console Logs",
+      "source" : "3be4ef89c326e3bd.html",
+      "type" : "text/html",
+      "size" : 1075
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 47
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "RECOVERY VALIDATION"
+  }, {
+    "name" : "testClass",
+    "value" : "RECOVERY VALIDATION"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify - Date of Birth and IP Address are Partial, Phone Number and Email are Valid"
+  }, {
+    "name" : "package",
+    "value" : "RECOVERY VALIDATION"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b77cd2c39e337c95",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b77cd2c39e337c95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642347638459,
+          "stop" : 1642347847359,
+          "duration" : 208900
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a7b355557000c5d4.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

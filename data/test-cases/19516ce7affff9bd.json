@@ -1,0 +1,697 @@
+{
+  "uid" : "19516ce7affff9bd",
+  "name" : "Route case to CS Client Support 3 queue",
+  "fullName" : "CASE ASSIGNMENT.Route case to CS Client Support 3 queue",
+  "historyId" : "a2593d8b5754c85d7b82b0bce1141010",
+  "time" : {
+    "start" : 1642303799074,
+    "stop" : 1642303924296,
+    "duration" : 125222
+  },
+  "description" : "Validate case created using community page gets assigned to CS Client Support 3 queue",
+  "descriptionHtml" : "<p>Validate case created using community page gets assigned to CS Client Support 3 queue</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+  "statusTrace" : "AssertionError: Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'\n                    at Object.equal (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\chai\\lib\\chai\\interface\\should.js:98:35)\n                    at CaseDetail.fetchFieldValueAndVerify (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\page\\/casedetail.js:182:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.<anonymous> (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\specs\\twitch-service-console\\case-assignment\\case-assignment-rule-case-fields-validation\\/case-assignment-rule-case-fields-validation-cs-client-support-3.spec.js:159:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+    "statusTrace" : "AssertionError: Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'\n                    at Object.equal (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\chai\\lib\\chai\\interface\\should.js:98:35)\n                    at CaseDetail.fetchFieldValueAndVerify (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\page\\/casedetail.js:182:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.<anonymous> (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\specs\\twitch-service-console\\case-assignment\\case-assignment-rule-case-fields-validation\\/case-assignment-rule-case-fields-validation-cs-client-support-3.spec.js:159:17)",
+    "steps" : [ {
+      "name" : "Fetch contact details",
+      "time" : {
+        "start" : 1642303799074,
+        "stop" : 1642303799441,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Fetched contact-id \"0033a00002Ubd0rAAB\" for execution",
+        "time" : {
+          "start" : 1642303799441,
+          "stop" : 1642303799441,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Login",
+      "time" : {
+        "start" : 1642303799441,
+        "stop" : 1642303829217,
+        "duration" : 29776
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to URL: https://twitchsupport--test.lightning.force.com/",
+        "time" : {
+          "start" : 1642303801211,
+          "stop" : 1642303801211,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"daarindo@justin.tv.twitchsupport.test\" in username textbox",
+        "time" : {
+          "start" : 1642303803168,
+          "stop" : 1642303803168,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"*******\" in password textbox",
+        "time" : {
+          "start" : 1642303803926,
+          "stop" : 1642303803926,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642303829113,
+          "stop" : 1642303829113,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642303829217,
+          "stop" : 1642303829217,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Navigate to contact url",
+      "time" : {
+        "start" : 1642303829217,
+        "stop" : 1642303846661,
+        "duration" : 17444
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0033a00002Ubd0rAAB/view",
+        "time" : {
+          "start" : 1642303846661,
+          "stop" : 1642303846661,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Log in to experience as user",
+      "time" : {
+        "start" : 1642303846661,
+        "stop" : 1642303867763,
+        "duration" : 21102
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Experience As User\" button",
+        "time" : {
+          "start" : 1642303867763,
+          "stop" : 1642303867763,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Open Contact Support",
+      "time" : {
+        "start" : 1642303867763,
+        "stop" : 1642303878670,
+        "duration" : 10907
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"\" user-profile link",
+        "time" : {
+          "start" : 1642303868450,
+          "stop" : 1642303868451,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked \"Contact Support\" link",
+        "time" : {
+          "start" : 1642303878670,
+          "stop" : 1642303878670,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Fill up the case submission form and submit",
+      "time" : {
+        "start" : 1642303878670,
+        "stop" : 1642303881858,
+        "duration" : 3188
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Twitch Apps - Desktop, TV, Web, Mobile and Consoles\" selected from category dropdown",
+        "time" : {
+          "start" : 1642303879220,
+          "stop" : 1642303879220,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Soundtrack by Twitch (Web)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642303879600,
+          "stop" : 1642303879600,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Unable to Install Soundtrack by Twitch\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642303879830,
+          "stop" : 1642303879830,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"CS_Client_Support_3_Subject_2022_01_16_21_29_53\" in subject textbox",
+        "time" : {
+          "start" : 1642303880547,
+          "stop" : 1642303880547,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"CS_Client_Support_3_Description_2022_01_16_21_29_53\" in description textbox",
+        "time" : {
+          "start" : 1642303881478,
+          "stop" : 1642303881478,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on submit button",
+        "time" : {
+          "start" : 1642303881858,
+          "stop" : 1642303881858,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Verify notification message",
+      "time" : {
+        "start" : 1642303881858,
+        "stop" : 1642303888533,
+        "duration" : 6675
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual success notification message does match expected value (Expected: Your ticket has been submitted. || Actual: Your ticket has been submitted.)",
+        "time" : {
+          "start" : 1642303888533,
+          "stop" : 1642303888533,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Navigate to Contact URL",
+      "time" : {
+        "start" : 1642303888533,
+        "stop" : 1642303907459,
+        "duration" : 18926
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0033a00002Ubd0rAAB/view",
+        "time" : {
+          "start" : 1642303907459,
+          "stop" : 1642303907459,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click On View All Link",
+      "time" : {
+        "start" : 1642303907459,
+        "stop" : 1642303918115,
+        "duration" : 10656
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"View All\" link in \"Cases\" section",
+        "time" : {
+          "start" : 1642303908105,
+          "stop" : 1642303908105,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Capture Owner and Case Number",
+      "time" : {
+        "start" : 1642303918115,
+        "stop" : 1642303918772,
+        "duration" : 657
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Fetched following details for the Subject \"CS_Client_Support_3_Subject_2022_01_16_21_29_53\" - Case Number: \"04635455\" || Case Owner: \"CS Client Support\"",
+        "time" : {
+          "start" : 1642303918772,
+          "stop" : 1642303918772,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify Owner",
+      "time" : {
+        "start" : 1642303918772,
+        "stop" : 1642303918773,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Case owner match (Expected: CS Client Support || Actual: CS Client Support)",
+        "time" : {
+          "start" : 1642303918773,
+          "stop" : 1642303918773,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click On Case Number",
+      "time" : {
+        "start" : 1642303918773,
+        "stop" : 1642303919357,
+        "duration" : 584
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"04635455\" case-number link",
+        "time" : {
+          "start" : 1642303919357,
+          "stop" : 1642303919357,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Validate Case Details",
+      "time" : {
+        "start" : 1642303919357,
+        "stop" : 1642303924295,
+        "duration" : 4938
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'\n                    at Object.equal (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\chai\\lib\\chai\\interface\\should.js:98:35)\n                    at CaseDetail.fetchFieldValueAndVerify (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\page\\/casedetail.js:182:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.<anonymous> (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\specs\\twitch-service-console\\case-assignment\\case-assignment-rule-case-fields-validation\\/case-assignment-rule-case-fields-validation-cs-client-support-3.spec.js:159:17)",
+      "steps" : [ {
+        "name" : "Actual value for \"Owner ID\" does match expected value in section \"Header\" (Expected: CS Client Support || Actual: CS Client Support)",
+        "time" : {
+          "start" : 1642303923780,
+          "stop" : 1642303923780,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual value for \"Status\" does match expected value in section \"Case Info\" (Expected: New || Actual: New)",
+        "time" : {
+          "start" : 1642303923946,
+          "stop" : 1642303923946,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "d982ddd0a72c7e89",
+        "name" : "Console Logs",
+        "source" : "d982ddd0a72c7e89.html",
+        "type" : "text/html",
+        "size" : 1060
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 37
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "CASE ASSIGNMENT"
+  }, {
+    "name" : "testClass",
+    "value" : "CASE ASSIGNMENT"
+  }, {
+    "name" : "testMethod",
+    "value" : "Route case to CS Client Support 3 queue"
+  }, {
+    "name" : "package",
+    "value" : "CASE ASSIGNMENT"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f0ffe1f1f642fbe3",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642295420566,
+        "stop" : 1642295541083,
+        "duration" : 120517
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "82095fab3083974c",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/82095fab3083974c",
+        "status" : "failed",
+        "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+        "time" : {
+          "start" : 1642303799074,
+          "stop" : 1642303924296,
+          "duration" : 125222
+        }
+      }, {
+        "uid" : "9cca05284e682c08",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9cca05284e682c08",
+        "status" : "failed",
+        "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+        "time" : {
+          "start" : 1642303799074,
+          "stop" : 1642303924296,
+          "duration" : 125222
+        }
+      }, {
+        "uid" : "aa8f2b58589d8c1b",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/aa8f2b58589d8c1b",
+        "status" : "failed",
+        "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+        "time" : {
+          "start" : 1642303799074,
+          "stop" : 1642303924296,
+          "duration" : 125222
+        }
+      }, {
+        "uid" : "1c6a372dfd23088b",
+        "status" : "failed",
+        "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+        "time" : {
+          "start" : 1642303799074,
+          "stop" : 1642303924296,
+          "duration" : 125222
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "19516ce7affff9bd.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

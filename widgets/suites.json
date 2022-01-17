@@ -1,0 +1,114 @@
+{
+  "total" : 12,
+  "items" : [ {
+    "uid" : "fad10994069aece71ec75851469112e4",
+    "name" : "CASE ASSIGNMENT",
+    "statistic" : {
+      "failed" : 26,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 26
+    }
+  }, {
+    "uid" : "706f5a0a9bafed944b58f5f2b906ba7a",
+    "name" : "CASE LANGAUGE VALIDATION",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "9a18acf1e4c289ad2f4d634eb54e2c7a",
+    "name" : "RECOVERY VALIDATION",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "0a2e3e8fc8ab01305c6e8ae2cf99671b",
+    "name" : "MACROS VALIDATION",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a2c182c660384b1158cd64e976d065ef",
+    "name" : "OMNI CHANNEL",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "d96d5ebe43cb636210dfff8dc590392c",
+    "name" : "OMNI SUPERVISOR",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "57cb861bb143eb02a16277a427a885ec",
+    "name" : "CASE CATEGORY COMBINATION",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "f5f579445d0a41da009c2b92b4247749",
+    "name" : "BANNER ALERT VALIDATION",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "72e0687aea3c9abf89ba8e5ba9b5a25f",
+    "name" : "COMMUNITY USER ACCOUNT",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a5c48c2c4b38841e5a98f8ed3693664b",
+    "name" : "ARTICLE HEADER VALIDATION",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  } ]
+}

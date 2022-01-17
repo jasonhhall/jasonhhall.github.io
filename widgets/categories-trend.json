@@ -1,0 +1,36 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo Allure Report",
+  "data" : {
+    "Product defects" : 34,
+    "Test defects" : 11
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo Allure Report",
+  "data" : {
+    "Product defects" : 34,
+    "Test defects" : 4
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo Allure Report",
+  "data" : {
+    "Product defects" : 33,
+    "Test defects" : 2
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo Allure Report",
+  "data" : {
+    "Product defects" : 26
+  }
+}, {
+  "data" : {
+    "Product defects" : 26
+  }
+} ]

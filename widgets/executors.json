@@ -1,0 +1,9 @@
+[ {
+  "name" : "Webdriver IO Test Runner - Node.js",
+  "type" : "Node.js",
+  "url" : "http://example.org",
+  "buildOrder" : 1,
+  "buildName" : "Allure-Report_Deploy #01",
+  "reportName" : "Demo Allure Report",
+  "reportUrl" : "http://example.org/build#13/AllureReport"
+} ]

@@ -1,0 +1,876 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Route case to CS AFFILIATE queue.",
+    "uid" : "1225f830b98f775b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303185221,
+      "stop" : 1642303328824,
+      "duration" : 143603
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to AI HANDLED queue.",
+    "uid" : "91583c4dcce69493",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303185705,
+      "stop" : 1642303327803,
+      "duration" : 142098
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Affiliate 3 queue",
+    "uid" : "d92df53c46776ee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303355219,
+      "stop" : 1642303496297,
+      "duration" : 141078
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Affiliate 2 queue",
+    "uid" : "f09d555db6bc4f46",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303358412,
+      "stop" : 1642303488454,
+      "duration" : 130042
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS App Support [External] 1 queue",
+    "uid" : "f2104fdb5b4c1282",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303508187,
+      "stop" : 1642303628315,
+      "duration" : 120128
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS App Support [External] 2 queue",
+    "uid" : "4640b53df9392b8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303512932,
+      "stop" : 1642303635949,
+      "duration" : 123017
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS App Support [External] 3 queue",
+    "uid" : "ca88c95e4135b195",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303652766,
+      "stop" : 1642303771140,
+      "duration" : 118374
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Client Support 1 queue",
+    "uid" : "30ed6452176dd393",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303662440,
+      "stop" : 1642303783579,
+      "duration" : 121139
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to to CS Client Support 2 queue",
+    "uid" : "791a545189b6ba08",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303792752,
+      "stop" : 1642303916464,
+      "duration" : 123712
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Client Support 3 queue",
+    "uid" : "19516ce7affff9bd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303799074,
+      "stop" : 1642303924296,
+      "duration" : 125222
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS General Support 1 queue",
+    "uid" : "5ebca08eb35dd299",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303939250,
+      "stop" : 1642304056332,
+      "duration" : 117082
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS General Support 2 queue",
+    "uid" : "62bf8b116aa13b55",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642303939778,
+      "stop" : 1642304065945,
+      "duration" : 126167
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Login Issues 1 queue",
+    "uid" : "4aa7a9afd619ea50",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304075380,
+      "stop" : 1642304191904,
+      "duration" : 116524
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Login Issues 2 queue",
+    "uid" : "a1ca4a9bb753152e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304081496,
+      "stop" : 1642304207533,
+      "duration" : 126037
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Login Issues 3 queue",
+    "uid" : "98ad618bcf883c8f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304209724,
+      "stop" : 1642304326821,
+      "duration" : 117097
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Login Issues 4 queue",
+    "uid" : "b64782eadb52de34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304245813,
+      "stop" : 1642304363675,
+      "duration" : 117862
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Login Issues 5 queue",
+    "uid" : "ac925e3a00ef623a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304350266,
+      "stop" : 1642304472018,
+      "duration" : 121752
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Partner Help queue",
+    "uid" : "4633ca10dcd664df",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304385216,
+      "stop" : 1642304506844,
+      "duration" : 121628
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Purchase Support queue",
+    "uid" : "a37b75268c8306dd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304491560,
+      "stop" : 1642304604404,
+      "duration" : 112844
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Purchase Support Fraud queue",
+    "uid" : "a556258d284303a6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304522109,
+      "stop" : 1642304638486,
+      "duration" : 116377
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Suspension Appeals 1 queue",
+    "uid" : "dbb34498a1384f7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304620954,
+      "stop" : 1642304738597,
+      "duration" : 117643
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to CS Suspension Appeals 2 queue",
+    "uid" : "849137f88f90e5b1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304653787,
+      "stop" : 1642304768737,
+      "duration" : 114950
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to Legal Privacy 1 queue",
+    "uid" : "8016beb8b402a3db",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304750782,
+      "stop" : 1642304873361,
+      "duration" : 122579
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to Legal Privacy 2 queue",
+    "uid" : "15b3e1e793da775c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304783296,
+      "stop" : 1642304907207,
+      "duration" : 123911
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to Legal Privacy 3 queue",
+    "uid" : "1f582db811ae67c3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304891875,
+      "stop" : 1642305010979,
+      "duration" : 119104
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Route case to Legal Privacy 4 queue",
+    "uid" : "98b7ed75087c82ee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642304923525,
+      "stop" : 1642305037014,
+      "duration" : 113489
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Translate Case from English to Non-English language",
+    "uid" : "29cfcb6887180a76",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642309556954,
+      "stop" : 1642309749548,
+      "duration" : 192594
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Translate Case from Non-English to English language",
+    "uid" : "1cd4eaeb49c0a684",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642309562752,
+      "stop" : 1642309740407,
+      "duration" : 177655
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify case gets assigned to Chinese language queue",
+    "uid" : "4fbaeca26a9640c3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642310745278,
+      "stop" : 1642310893256,
+      "duration" : 147978
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify case gets assigned to Spanish language queue",
+    "uid" : "b1e247e069fb8f15",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642310747181,
+      "stop" : 1642310885410,
+      "duration" : 138229
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify case gets assigned to German language queue",
+    "uid" : "74b3888e58f10f23",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642310908808,
+      "stop" : 1642311042209,
+      "duration" : 133401
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify case gets assigned to Japanese language queue",
+    "uid" : "39f22aa7fbcee05f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642310919667,
+      "stop" : 1642311065041,
+      "duration" : 145374
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify case gets assigned to Dutch language queue",
+    "uid" : "dc846f98cef9de9b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642311066254,
+      "stop" : 1642311206216,
+      "duration" : 139962
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify case gets assigned to French language queue",
+    "uid" : "5c895553406f231b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642311093826,
+      "stop" : 1642311239784,
+      "duration" : 145958
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Create a custom MACRO in Saleforce",
+    "uid" : "4378593f86ba7d68",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642311236408,
+      "stop" : 1642311379820,
+      "duration" : 143412
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Create and publish Banner in English and Non-English language",
+    "uid" : "b07d562abbce85a9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642311263495,
+      "stop" : 1642311527260,
+      "duration" : 263765
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Create an account in Salesforce",
+    "uid" : "d11333fc22ea4720",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642312098807,
+      "stop" : 1642312182141,
+      "duration" : 83334
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Validate credit-card restriction using English language",
+    "uid" : "bf55201ef4a5c3e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642346536386,
+      "stop" : 1642346677575,
+      "duration" : 141189
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Validate credit-card restriction using Non-English language",
+    "uid" : "96b3fc33b6f75d67",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642346537777,
+      "stop" : 1642346669534,
+      "duration" : 131757
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Article Header Vaidation - Test 2",
+    "uid" : "7a5e05c0bf444549",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642346993585,
+      "stop" : 1642347151148,
+      "duration" : 157563
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Article Header Vaidation - Test 1",
+    "uid" : "84f1344cc01684ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642346994405,
+      "stop" : 1642347116116,
+      "duration" : 121711
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Article Header Vaidation - Test 4",
+    "uid" : "ae798578d9c9e3bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642347172508,
+      "stop" : 1642347319264,
+      "duration" : 146756
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Article Header Vaidation - Test 5",
+    "uid" : "59a3fbd78c34b2cc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642347185262,
+      "stop" : 1642347324948,
+      "duration" : 139686
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Article Header Vaidation - Test 6",
+    "uid" : "2f43b6371eec8e3c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642347336494,
+      "stop" : 1642347474693,
+      "duration" : 138199
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Article Header Vaidation - Test 7",
+    "uid" : "9280fecdd69160cb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642347352298,
+      "stop" : 1642347495600,
+      "duration" : 143302
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Article Header Vaidation - Test 8",
+    "uid" : "948eef7cddd4f55d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642347491854,
+      "stop" : 1642347621292,
+      "duration" : 129438
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify - Date of Birth, IP Address, Phone Number and Email are Valid",
+    "uid" : "76840ca9db40526",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642347517620,
+      "stop" : 1642347740322,
+      "duration" : 222702
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify - Date of Birth and IP Address are Partial, Phone Number and Email are Valid",
+    "uid" : "a7b355557000c5d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642347638459,
+      "stop" : 1642347847359,
+      "duration" : 208900
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify - Date of Birth and IP Address are Invalid, Phone Number and Email are Valid",
+    "uid" : "3341789368dabd06",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1642347757942,
+      "stop" : 1642348299479,
+      "duration" : 541537
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify - Date of Birth and IP Address are Valid and Email and Phone Number as Invalid",
+    "uid" : "6ac59fdc3a283ac6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642347869918,
+      "stop" : 1642348070937,
+      "duration" : 201019
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify - Date of Birth and IP Address are Partial, Phone Number and Email are Invalid",
+    "uid" : "1dd170b742e37a97",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642348095025,
+      "stop" : 1642348295169,
+      "duration" : 200144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify - Date of Birth, IP Address, Phone Number and Email are Invalid",
+    "uid" : "65739c4435771528",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642348318705,
+      "stop" : 1642348513275,
+      "duration" : 194570
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify - Date of Birth, IP Address and Phone Number are Valid and Email is Invalid",
+    "uid" : "81622b7f26bae6cb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642348326932,
+      "stop" : 1642348525845,
+      "duration" : 198913
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify - Date of Birth, IP Address and Email are Valid and Phone Number is Invalid",
+    "uid" : "bb14011c779b6c02",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642348526529,
+      "stop" : 1642348722237,
+      "duration" : 195708
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Omni-supervisor is able to set different status for CX Agent",
+    "uid" : "347c364f4cae39e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642348543822,
+      "stop" : 1642348708894,
+      "duration" : 165072
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Omni-supervisor is able to set different skills for CX Agent",
+    "uid" : "41907ee28544355",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642348727423,
+      "stop" : 1642348877225,
+      "duration" : 149802
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "CX agent can resolve the cases using Macros",
+    "uid" : "fb65b825d3348e72",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642351589853,
+      "stop" : 1642351990688,
+      "duration" : 400835
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "CX agent can recieve, update, and modify cases and via the Interactions tab",
+    "uid" : "275e34bb3ab281e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642351590127,
+      "stop" : 1642351906119,
+      "duration" : 315992
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "CX agent can update cases to resovled status through Interactions tab",
+    "uid" : "d247106972daeedf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642351938019,
+      "stop" : 1642352148870,
+      "duration" : 210851
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "CX agent can set different Omni-Channel status",
+    "uid" : "9e38cd74cc542755",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642352008956,
+      "stop" : 1642352304809,
+      "duration" : 295853
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Validate ToolKit URL query string contains Case-ID,Twitch User-ID, Case Number",
+    "uid" : "3aabd592f18d4aa9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642352163432,
+      "stop" : 1642352325872,
+      "duration" : 162440
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "CX Agent can transfer a Case to a differnt Agent",
+    "uid" : "d1e69dc51dc40fdc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642352330082,
+      "stop" : 1642352464069,
+      "duration" : 133987
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "CX agent can transfer a case to an agent who have the same skill",
+    "uid" : "d34a935e448a8860",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642352365715,
+      "stop" : 1642352686740,
+      "duration" : 321025
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Validation: Transfer E2E (Negative)",
+    "uid" : "1d3c98adc7124d8e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642352484884,
+      "stop" : 1642352674929,
+      "duration" : 190045
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify various combination of category, sub-category and detail-category - TEST 1",
+    "uid" : "94cae4f787971718",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642352697359,
+      "stop" : 1642353532503,
+      "duration" : 835144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Verify various combination of category, sub-category and detail-category - TEST 4",
+    "uid" : "bbde6e5e20cb963a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642352712400,
+      "stop" : 1642353548658,
+      "duration" : 836258
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "\"before all\" hook for CASE CATEGORY COMBINATION",
+    "uid" : "3365cb76d114e960",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1642353584624,
+      "stop" : 1642354230733,
+      "duration" : 646109
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  } ]
+}

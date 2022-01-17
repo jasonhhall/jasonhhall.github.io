@@ -1,0 +1,884 @@
+{
+  "uid" : "9e38cd74cc542755",
+  "name" : "CX agent can set different Omni-Channel status",
+  "fullName" : "OMNI CHANNEL.CX agent can set different Omni-Channel status",
+  "historyId" : "afcc58a4ed9c183f97d010ab389ad71",
+  "time" : {
+    "start" : 1642352008956,
+    "stop" : 1642352304809,
+    "duration" : 295853
+  },
+  "description" : "Validate CX agent is able to set different omni-channel status correctly",
+  "descriptionHtml" : "<p>Validate CX agent is able to set different omni-channel status correctly</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1642352008963,
+        "stop" : 1642352032998,
+        "duration" : 24035
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to URL: https://twitchsupport--test.lightning.force.com/",
+        "time" : {
+          "start" : 1642352009640,
+          "stop" : 1642352009640,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"daarindo@justin.tv.twitchsupport.test\" in username textbox",
+        "time" : {
+          "start" : 1642352010194,
+          "stop" : 1642352010194,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"*******\" in password textbox",
+        "time" : {
+          "start" : 1642352011270,
+          "stop" : 1642352011270,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642352032661,
+          "stop" : 1642352032661,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642352032998,
+          "stop" : 1642352032998,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Navigate to URL",
+      "time" : {
+        "start" : 1642352032998,
+        "stop" : 1642352049734,
+        "duration" : 16736
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to agent detail URL: https://twitchsupport--test.my.salesforce.com/0051U000001Uk3v?noredirect=1&isUserEntityOverride=1&appLayout=setup&noS1Redirect=true",
+        "time" : {
+          "start" : 1642352049734,
+          "stop" : 1642352049734,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Capture Agent NAme",
+      "time" : {
+        "start" : 1642352049734,
+        "stop" : 1642352049812,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Retrived value \"David Schweitzer\" for field \"Name\"",
+        "time" : {
+          "start" : 1642352049812,
+          "stop" : 1642352049812,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click On Login",
+      "time" : {
+        "start" : 1642352049812,
+        "stop" : 1642352073504,
+        "duration" : 23692
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642352073425,
+          "stop" : 1642352073425,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642352073504,
+          "stop" : 1642352073504,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Launch Omni Channel Panel",
+      "time" : {
+        "start" : 1642352073504,
+        "stop" : 1642352076931,
+        "duration" : 3427
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Omni-Channel (Drawer)\" button",
+        "time" : {
+          "start" : 1642352076931,
+          "stop" : 1642352076931,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Set status as Busy - 1:1",
+      "time" : {
+        "start" : 1642352076931,
+        "stop" : 1642352100716,
+        "duration" : 23785
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642352080292,
+          "stop" : 1642352080293,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Busy - 1:1\" status from status drop down",
+        "time" : {
+          "start" : 1642352100564,
+          "stop" : 1642352100564,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Busy - 1:1 || Actual: Busy - 1:1)",
+        "time" : {
+          "start" : 1642352100716,
+          "stop" : 1642352100716,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Set status as Busy - OneTrust",
+      "time" : {
+        "start" : 1642352100716,
+        "stop" : 1642352124344,
+        "duration" : 23628
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642352103875,
+          "stop" : 1642352103875,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Busy - OneTrust\" status from status drop down",
+        "time" : {
+          "start" : 1642352124035,
+          "stop" : 1642352124035,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Busy - OneTrust || Actual: Busy - OneTrust)",
+        "time" : {
+          "start" : 1642352124344,
+          "stop" : 1642352124344,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Set status as Busy - Personal",
+      "time" : {
+        "start" : 1642352124344,
+        "stop" : 1642352147912,
+        "duration" : 23568
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642352127633,
+          "stop" : 1642352127633,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Busy - Personal\" status from status drop down",
+        "time" : {
+          "start" : 1642352147802,
+          "stop" : 1642352147802,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Busy - Personal || Actual: Busy - Personal)",
+        "time" : {
+          "start" : 1642352147912,
+          "stop" : 1642352147912,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Set status as Busy - System Issues",
+      "time" : {
+        "start" : 1642352147912,
+        "stop" : 1642352171499,
+        "duration" : 23587
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642352151060,
+          "stop" : 1642352151060,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Busy - System Issues\" status from status drop down",
+        "time" : {
+          "start" : 1642352171209,
+          "stop" : 1642352171209,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Busy - System Issues || Actual: Busy - System Issues)",
+        "time" : {
+          "start" : 1642352171499,
+          "stop" : 1642352171499,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Set status as Busy - Training",
+      "time" : {
+        "start" : 1642352171499,
+        "stop" : 1642352195144,
+        "duration" : 23645
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642352174732,
+          "stop" : 1642352174732,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Busy - Training\" status from status drop down",
+        "time" : {
+          "start" : 1642352194910,
+          "stop" : 1642352194910,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Busy - Training || Actual: Busy - Training)",
+        "time" : {
+          "start" : 1642352195144,
+          "stop" : 1642352195144,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Set status as Busy - Unresolved Cases",
+      "time" : {
+        "start" : 1642352195144,
+        "stop" : 1642352218626,
+        "duration" : 23482
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642352198348,
+          "stop" : 1642352198348,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Busy - Unresolved Cases\" status from status drop down",
+        "time" : {
+          "start" : 1642352218511,
+          "stop" : 1642352218511,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Busy - Unresolved Cases || Actual: Busy - Unresolved Cases)",
+        "time" : {
+          "start" : 1642352218626,
+          "stop" : 1642352218626,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Set status as Lunch",
+      "time" : {
+        "start" : 1642352218626,
+        "stop" : 1642352242138,
+        "duration" : 23512
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642352221766,
+          "stop" : 1642352221766,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Lunch\" status from status drop down",
+        "time" : {
+          "start" : 1642352241901,
+          "stop" : 1642352241901,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Lunch || Actual: Lunch)",
+        "time" : {
+          "start" : 1642352242138,
+          "stop" : 1642352242138,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Set status as Meeting",
+      "time" : {
+        "start" : 1642352242138,
+        "stop" : 1642352265786,
+        "duration" : 23648
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642352245391,
+          "stop" : 1642352245391,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Meeting\" status from status drop down",
+        "time" : {
+          "start" : 1642352265588,
+          "stop" : 1642352265588,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Meeting || Actual: Meeting)",
+        "time" : {
+          "start" : 1642352265786,
+          "stop" : 1642352265786,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Set status as Offline",
+      "time" : {
+        "start" : 1642352265786,
+        "stop" : 1642352289366,
+        "duration" : 23580
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642352268956,
+          "stop" : 1642352268956,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Offline\" status from status drop down",
+        "time" : {
+          "start" : 1642352289095,
+          "stop" : 1642352289095,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Offline || Actual: Offline)",
+        "time" : {
+          "start" : 1642352289366,
+          "stop" : 1642352289366,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Logout of Application",
+      "time" : {
+        "start" : 1642352289366,
+        "stop" : 1642352304799,
+        "duration" : 15433
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on user-profile button",
+        "time" : {
+          "start" : 1642352289634,
+          "stop" : 1642352289634,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on log-out link",
+        "time" : {
+          "start" : 1642352304799,
+          "stop" : 1642352304799,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ {
+      "uid" : "dafcdcfdeea5a5e6",
+      "name" : "Console Logs",
+      "source" : "dafcdcfdeea5a5e6.html",
+      "type" : "text/html",
+      "size" : 668
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 54
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "OMNI CHANNEL"
+  }, {
+    "name" : "testClass",
+    "value" : "OMNI CHANNEL"
+  }, {
+    "name" : "testMethod",
+    "value" : "CX agent can set different Omni-Channel status"
+  }, {
+    "name" : "package",
+    "value" : "OMNI CHANNEL"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e38cd74cc542755.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

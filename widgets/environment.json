@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "Windows10" ],
+  "name" : "OS"
+}, {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "97.0.4692.71" ],
+  "name" : "Browser.Version"
+} ]

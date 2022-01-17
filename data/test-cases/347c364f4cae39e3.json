@@ -1,0 +1,569 @@
+{
+  "uid" : "347c364f4cae39e3",
+  "name" : "Omni-supervisor is able to set different status for CX Agent",
+  "fullName" : "OMNI SUPERVISOR.Omni-supervisor is able to set different status for CX Agent",
+  "historyId" : "66bee5e7100c66fb95cddd42ecee907b",
+  "time" : {
+    "start" : 1642348543822,
+    "stop" : 1642348708894,
+    "duration" : 165072
+  },
+  "description" : "Validate the omni-supervisor is able to set different status correctly for CX Agent",
+  "descriptionHtml" : "<p>Validate the omni-supervisor is able to set different status correctly for CX Agent</p>\n",
+  "status" : "broken",
+  "statusMessage" : "element (\"//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/tbody/tr[./td//a[normalize-space()=\"David Schweitzer\"]]/*[count(//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/thead/tr/th[contains(normalize-space(),\"ACTION\")]/preceding-sibling::th)+1]//a\") still not clickable after 50000ms",
+  "statusTrace" : "Error: element (\"//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/tbody/tr[./td//a[normalize-space()=\"David Schweitzer\"]]/*[count(//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/thead/tr/th[contains(normalize-space(),\"ACTION\")]/preceding-sibling::th)+1]//a\") still not clickable after 50000ms\n                    at D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at OmniSupervisor.clickOnChangeStatusLink (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\page\\/omnisupervisor.js:63:9)\n                    at Context.<anonymous> (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\specs\\twitch-service-console\\omni-supervisor\\/omni-supervisor_omni-channel-status-validation.spec.js:117:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/tbody/tr[./td//a[normalize-space()=\"David Schweitzer\"]]/*[count(//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/thead/tr/th[contains(normalize-space(),\"ACTION\")]/preceding-sibling::th)+1]//a\") still not clickable after 50000ms",
+    "statusTrace" : "Error: element (\"//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/tbody/tr[./td//a[normalize-space()=\"David Schweitzer\"]]/*[count(//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/thead/tr/th[contains(normalize-space(),\"ACTION\")]/preceding-sibling::th)+1]//a\") still not clickable after 50000ms\n                    at D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at OmniSupervisor.clickOnChangeStatusLink (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\page\\/omnisupervisor.js:63:9)\n                    at Context.<anonymous> (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\specs\\twitch-service-console\\omni-supervisor\\/omni-supervisor_omni-channel-status-validation.spec.js:117:21)",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1642348543829,
+        "stop" : 1642348577239,
+        "duration" : 33410
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to URL: https://twitchsupport--test.lightning.force.com/",
+        "time" : {
+          "start" : 1642348545050,
+          "stop" : 1642348545050,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"daarindo@justin.tv.twitchsupport.test\" in username textbox",
+        "time" : {
+          "start" : 1642348546255,
+          "stop" : 1642348546255,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"*******\" in password textbox",
+        "time" : {
+          "start" : 1642348547391,
+          "stop" : 1642348547391,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642348572049,
+          "stop" : 1642348572049,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642348577239,
+          "stop" : 1642348577239,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Open twitch service console",
+      "time" : {
+        "start" : 1642348577239,
+        "stop" : 1642348577527,
+        "duration" : 288
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Application \"Twitch Service Console\" already open",
+        "time" : {
+          "start" : 1642348577386,
+          "stop" : 1642348577386,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Application name does match expected value (Expected: Twitch Service Console || Actual: Twitch Service Console)",
+        "time" : {
+          "start" : 1642348577527,
+          "stop" : 1642348577527,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Open menu Omni Supervisor and verify",
+      "time" : {
+        "start" : 1642348577527,
+        "stop" : 1642348587408,
+        "duration" : 9881
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Menu \"Omni Supervisor\" opened",
+        "time" : {
+          "start" : 1642348587219,
+          "stop" : 1642348587219,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Actual menu name does match expected value (Expected: Omni Supervisor || Actual: Omni Supervisor)",
+        "time" : {
+          "start" : 1642348587408,
+          "stop" : 1642348587408,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Navigate to URL",
+      "time" : {
+        "start" : 1642348587421,
+        "stop" : 1642348602629,
+        "duration" : 15208
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to agent detail URL in new window: https://twitchsupport--test.my.salesforce.com/0051U000001Uk3v?noredirect=1&isUserEntityOverride=1&appLayout=setup&noS1Redirect=true",
+        "time" : {
+          "start" : 1642348602629,
+          "stop" : 1642348602629,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Capture Agent Name",
+      "time" : {
+        "start" : 1642348602629,
+        "stop" : 1642348603189,
+        "duration" : 560
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Retrived value \"David Schweitzer\" for field \"Name\"",
+        "time" : {
+          "start" : 1642348603189,
+          "stop" : 1642348603189,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click On Login",
+      "time" : {
+        "start" : 1642348603189,
+        "stop" : 1642348626367,
+        "duration" : 23178
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642348625845,
+          "stop" : 1642348625845,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642348626367,
+          "stop" : 1642348626367,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Close all open tabs",
+      "time" : {
+        "start" : 1642348626367,
+        "stop" : 1642348626672,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642348626672,
+          "stop" : 1642348626672,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Launch Omni Channel Panel",
+      "time" : {
+        "start" : 1642348626672,
+        "stop" : 1642348630275,
+        "duration" : 3603
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Omni-Channel (Drawer)\" button",
+        "time" : {
+          "start" : 1642348630275,
+          "stop" : 1642348630275,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Set status as Available",
+      "time" : {
+        "start" : 1642348630275,
+        "stop" : 1642348653779,
+        "duration" : 23504
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on status drop down",
+        "time" : {
+          "start" : 1642348633629,
+          "stop" : 1642348633629,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Selected \"Available\" status from status drop down",
+        "time" : {
+          "start" : 1642348653779,
+          "stop" : 1642348653779,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Verify Status as Available",
+      "time" : {
+        "start" : 1642348653779,
+        "stop" : 1642348654160,
+        "duration" : 381
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Actual status (omni-channel) does match expected value (Expected: Available || Actual: Available)",
+        "time" : {
+          "start" : 1642348654160,
+          "stop" : 1642348654160,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Switch to supervisor window",
+      "time" : {
+        "start" : 1642348654169,
+        "stop" : 1642348654187,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Switched to window with handle: CDwindow-20E7D8BF384BCDC430BF195C684A7A4B",
+        "time" : {
+          "start" : 1642348654187,
+          "stop" : 1642348654187,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Change status as Available - Case & Chat from Supervisor console",
+      "time" : {
+        "start" : 1642348654187,
+        "stop" : 1642348708894,
+        "duration" : 54707
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/tbody/tr[./td//a[normalize-space()=\"David Schweitzer\"]]/*[count(//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/thead/tr/th[contains(normalize-space(),\"ACTION\")]/preceding-sibling::th)+1]//a\") still not clickable after 50000ms\n                    at D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at OmniSupervisor.clickOnChangeStatusLink (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\page\\/omnisupervisor.js:63:9)\n                    at Context.<anonymous> (D:\\Users\\hllzmj\\Documents\\Projects\\v2\\EPTQE-Salesforce_CX_QE_Automation\\test\\specs\\twitch-service-console\\omni-supervisor\\/omni-supervisor_omni-channel-status-validation.spec.js:117:21)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "82bb12fcf863135f",
+        "name" : "Console Logs",
+        "source" : "82bb12fcf863135f.html",
+        "type" : "text/html",
+        "size" : 856
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 31
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "OMNI SUPERVISOR"
+  }, {
+    "name" : "testClass",
+    "value" : "OMNI SUPERVISOR"
+  }, {
+    "name" : "testMethod",
+    "value" : "Omni-supervisor is able to set different status for CX Agent"
+  }, {
+    "name" : "package",
+    "value" : "OMNI SUPERVISOR"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d6854586591a3db5",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d6854586591a3db5",
+        "status" : "broken",
+        "statusDetails" : "element (\"//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/tbody/tr[./td//a[normalize-space()=\"David Schweitzer\"]]/*[count(//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/thead/tr/th[contains(normalize-space(),\"ACTION\")]/preceding-sibling::th)+1]//a\") still not clickable after 50000ms",
+        "time" : {
+          "start" : 1642348543822,
+          "stop" : 1642348708894,
+          "duration" : 165072
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "347c364f4cae39e3.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

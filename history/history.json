@@ -1,0 +1,2890 @@
+{
+  "8301c475da364ad22a247eae95358ec1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d3c98adc7124d8e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1d3c98adc7124d8e",
+      "status" : "broken",
+      "statusDetails" : "element (\"//table/tbody/tr[./td[normalize-space()=\"User Detail\"]]//input[@type=\"button\" and @title=\"Login\"]\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642352484884,
+        "stop" : 1642352674929,
+        "duration" : 190045
+      }
+    } ]
+  },
+  "533083542e0d69b607945822e1c10eec" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "1f582db811ae67c3",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1f582db811ae67c3",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304891875,
+        "stop" : 1642305010979,
+        "duration" : 119104
+      }
+    }, {
+      "uid" : "29516b203b01c501",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/29516b203b01c501",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304891875,
+        "stop" : 1642305010979,
+        "duration" : 119104
+      }
+    }, {
+      "uid" : "2b926c9e97e955ec",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2b926c9e97e955ec",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304891875,
+        "stop" : 1642305010979,
+        "duration" : 119104
+      }
+    }, {
+      "uid" : "9da4ec658ee978b4",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9da4ec658ee978b4",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304891875,
+        "stop" : 1642305010979,
+        "duration" : 119104
+      }
+    }, {
+      "uid" : "415324d9b19a43c2",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304891875,
+        "stop" : 1642305010979,
+        "duration" : 119104
+      }
+    } ]
+  },
+  "f4d6d8fb07519c10e166a69cc192615f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1dd170b742e37a97",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1dd170b742e37a97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642348095025,
+        "stop" : 1642348295169,
+        "duration" : 200144
+      }
+    }, {
+      "uid" : "4b0bd55eb308cec3",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4b0bd55eb308cec3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642348095025,
+        "stop" : 1642348295169,
+        "duration" : 200144
+      }
+    } ]
+  },
+  "57569484a608f04e2e786d5fa343704c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "65739c4435771528",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/65739c4435771528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642348318705,
+        "stop" : 1642348513275,
+        "duration" : 194570
+      }
+    }, {
+      "uid" : "269e651f813f679d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/269e651f813f679d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642348318705,
+        "stop" : 1642348513275,
+        "duration" : 194570
+      }
+    } ]
+  },
+  "f8a64a3127e2f74dfb1beaa8cef24172" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "275e34bb3ab281e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/275e34bb3ab281e",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a aria-selected=\"false\" data-tab-name=\"Case.Update_Case\" role=\"tab\" aria-controls=\"7141:0\" tabindex=\"-1\" title=\"Update Case\" class=\"tabHeader\" data-aura-rendered-by=\"7174:0\" href=\"javascript:void(0);\" data-refid=\"tab-name\">...</a> is not clickable at point (415, 292). Other element would receive the click: <one-record-home-flexipage2 data-aura-rendered-by=\"6846:0\" forcegenerated-adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view_adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view-host=\"\"></one-record-home-flexipage2>\n                  (Session info: headless chrome=97.0.4692.71)",
+      "time" : {
+        "start" : 1642351590127,
+        "stop" : 1642351906119,
+        "duration" : 315992
+      }
+    } ]
+  },
+  "43e51924a4d8474ca5559176f5d3283a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d34a935e448a8860",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d34a935e448a8860",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button type=\"button\" title=\"Transfer Case\" class=\"slds-button slds-button_neutral\" data-aura-rendered-by=\"7655:0\">...</button> is not clickable at point (728, 223). Other element would receive the click: <one-record-home-flexipage2 data-aura-rendered-by=\"7594:0\" forcegenerated-adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view_adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view-host=\"\"></one-record-home-flexipage2>\n                  (Session info: headless chrome=97.0.4692.71)",
+      "time" : {
+        "start" : 1642352365715,
+        "stop" : 1642352686740,
+        "duration" : 321025
+      }
+    } ]
+  },
+  "4381b2912d235d83e9aa7e25d6d0f63f" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "4378593f86ba7d68",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4378593f86ba7d68",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642311236408,
+        "stop" : 1642311379820,
+        "duration" : 143412
+      }
+    }, {
+      "uid" : "d9e5fa623b84205d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d9e5fa623b84205d",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642311236408,
+        "stop" : 1642311379820,
+        "duration" : 143412
+      }
+    }, {
+      "uid" : "8531b2bdf68f77ba",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8531b2bdf68f77ba",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642311236408,
+        "stop" : 1642311379820,
+        "duration" : 143412
+      }
+    } ]
+  },
+  "1e8ad868daabbe87308e9d5100a42604" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "76840ca9db40526",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/76840ca9db40526",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347517620,
+        "stop" : 1642347740322,
+        "duration" : 222702
+      }
+    }, {
+      "uid" : "41f378afbdfd36d9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/41f378afbdfd36d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347517620,
+        "stop" : 1642347740322,
+        "duration" : 222702
+      }
+    } ]
+  },
+  "c1dddab7d672cad657a6341bee79c6f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a7b355557000c5d4",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a7b355557000c5d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347638459,
+        "stop" : 1642347847359,
+        "duration" : 208900
+      }
+    }, {
+      "uid" : "b77cd2c39e337c95",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b77cd2c39e337c95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347638459,
+        "stop" : 1642347847359,
+        "duration" : 208900
+      }
+    } ]
+  },
+  "cd7d488efec485799c2781a864ea1ba2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1e69dc51dc40fdc",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d1e69dc51dc40fdc",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button type=\"button\" title=\"Transfer Case\" class=\"slds-button slds-button_neutral\" data-aura-rendered-by=\"2563:0\">...</button> is not clickable at point (728, 223). Other element would receive the click: <one-record-home-flexipage2 data-aura-rendered-by=\"2502:0\" forcegenerated-adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view_adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view-host=\"\"></one-record-home-flexipage2>\n                  (Session info: headless chrome=97.0.4692.71)",
+      "time" : {
+        "start" : 1642352330082,
+        "stop" : 1642352464069,
+        "duration" : 133987
+      }
+    } ]
+  },
+  "f832e3a7556e3a6ff084d8b43fae3806" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "4633ca10dcd664df",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4633ca10dcd664df",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642304385216,
+        "stop" : 1642304506844,
+        "duration" : 121628
+      }
+    }, {
+      "uid" : "c16bae2938fe3f9d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c16bae2938fe3f9d",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642304385216,
+        "stop" : 1642304506844,
+        "duration" : 121628
+      }
+    }, {
+      "uid" : "5e3fab039692bdd0",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5e3fab039692bdd0",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642304385216,
+        "stop" : 1642304506844,
+        "duration" : 121628
+      }
+    }, {
+      "uid" : "aa3e0aca70e41a6",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/aa3e0aca70e41a6",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642304385216,
+        "stop" : 1642304506844,
+        "duration" : 121628
+      }
+    }, {
+      "uid" : "7f517a22a14a8619",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642304385216,
+        "stop" : 1642304506844,
+        "duration" : 121628
+      }
+    } ]
+  },
+  "afcc58a4ed9c183f97d010ab389ad71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e38cd74cc542755",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9e38cd74cc542755",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642352008956,
+        "stop" : 1642352304809,
+        "duration" : 295853
+      }
+    } ]
+  },
+  "769f34e9a1d18f3fc17fda2dca4646ae" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "74b3888e58f10f23",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/74b3888e58f10f23",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642310908808,
+        "stop" : 1642311042209,
+        "duration" : 133401
+      }
+    }, {
+      "uid" : "7f0cc8573f79d3a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7f0cc8573f79d3a",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642310908808,
+        "stop" : 1642311042209,
+        "duration" : 133401
+      }
+    }, {
+      "uid" : "a6106fbc18cf551d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a6106fbc18cf551d",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642310908808,
+        "stop" : 1642311042209,
+        "duration" : 133401
+      }
+    } ]
+  },
+  "cda71f531efff0d7c8f7cd26d05b8c62" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "5c895553406f231b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5c895553406f231b",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642311093826,
+        "stop" : 1642311239784,
+        "duration" : 145958
+      }
+    }, {
+      "uid" : "cf1953b26e12b18",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/cf1953b26e12b18",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642311093826,
+        "stop" : 1642311239784,
+        "duration" : 145958
+      }
+    }, {
+      "uid" : "d9ae6d21635a5269",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d9ae6d21635a5269",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642311093826,
+        "stop" : 1642311239784,
+        "duration" : 145958
+      }
+    } ]
+  },
+  "6bbf3b0c6ff66ded03facfe1ee042c79" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "62bf8b116aa13b55",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/62bf8b116aa13b55",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642303939778,
+        "stop" : 1642304065945,
+        "duration" : 126167
+      }
+    }, {
+      "uid" : "28b643478b8308a6",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/28b643478b8308a6",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642303939778,
+        "stop" : 1642304065945,
+        "duration" : 126167
+      }
+    }, {
+      "uid" : "509b8fcd92be1f41",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/509b8fcd92be1f41",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642303939778,
+        "stop" : 1642304065945,
+        "duration" : 126167
+      }
+    }, {
+      "uid" : "9deea2ee2fd6427c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9deea2ee2fd6427c",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642303939778,
+        "stop" : 1642304065945,
+        "duration" : 126167
+      }
+    }, {
+      "uid" : "cc0f2920c3a85489",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642303939778,
+        "stop" : 1642304065945,
+        "duration" : 126167
+      }
+    } ]
+  },
+  "379db303e5ebf5df088c29c9b9921cb" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "ac925e3a00ef623a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ac925e3a00ef623a",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304350266,
+        "stop" : 1642304472018,
+        "duration" : 121752
+      }
+    }, {
+      "uid" : "8ffad884a92fd01e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8ffad884a92fd01e",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304350266,
+        "stop" : 1642304472018,
+        "duration" : 121752
+      }
+    }, {
+      "uid" : "6c8b9eb04075dccc",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6c8b9eb04075dccc",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304350266,
+        "stop" : 1642304472018,
+        "duration" : 121752
+      }
+    }, {
+      "uid" : "b97f7d42d7ae9578",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b97f7d42d7ae9578",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304350266,
+        "stop" : 1642304472018,
+        "duration" : 121752
+      }
+    }, {
+      "uid" : "3ea99f72b639c708",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304350266,
+        "stop" : 1642304472018,
+        "duration" : 121752
+      }
+    } ]
+  },
+  "aa3506f7e7b7c57b44f1777159c1e20c" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "b64782eadb52de34",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b64782eadb52de34",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304245813,
+        "stop" : 1642304363675,
+        "duration" : 117862
+      }
+    }, {
+      "uid" : "2bd2c529a481d949",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2bd2c529a481d949",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304245813,
+        "stop" : 1642304363675,
+        "duration" : 117862
+      }
+    }, {
+      "uid" : "9fb4e3db5c90bdc4",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9fb4e3db5c90bdc4",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304245813,
+        "stop" : 1642304363675,
+        "duration" : 117862
+      }
+    }, {
+      "uid" : "290a03f3d3f8a3a3",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/290a03f3d3f8a3a3",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304245813,
+        "stop" : 1642304363675,
+        "duration" : 117862
+      }
+    }, {
+      "uid" : "6b7ef1d1fc99f24b",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304245813,
+        "stop" : 1642304363675,
+        "duration" : 117862
+      }
+    } ]
+  },
+  "b176476b17e84b1beaa1813a8cee7584" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "b1e247e069fb8f15",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b1e247e069fb8f15",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642310747181,
+        "stop" : 1642310885410,
+        "duration" : 138229
+      }
+    }, {
+      "uid" : "1965861a63e54d09",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1965861a63e54d09",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642310747181,
+        "stop" : 1642310885410,
+        "duration" : 138229
+      }
+    }, {
+      "uid" : "d3136484f9559b56",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d3136484f9559b56",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642310747181,
+        "stop" : 1642310885410,
+        "duration" : 138229
+      }
+    } ]
+  },
+  "66bee5e7100c66fb95cddd42ecee907b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "347c364f4cae39e3",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/347c364f4cae39e3",
+      "status" : "broken",
+      "statusDetails" : "element (\"//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/tbody/tr[./td//a[normalize-space()=\"David Schweitzer\"]]/*[count(//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/thead/tr/th[contains(normalize-space(),\"ACTION\")]/preceding-sibling::th)+1]//a\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642348543822,
+        "stop" : 1642348708894,
+        "duration" : 165072
+      }
+    }, {
+      "uid" : "d6854586591a3db5",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d6854586591a3db5",
+      "status" : "broken",
+      "statusDetails" : "element (\"//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/tbody/tr[./td//a[normalize-space()=\"David Schweitzer\"]]/*[count(//section[@role=\"tabpanel\" and @aria-expanded=\"true\"]//div[contains(@class,\"supervisorList\")]//table/thead/tr/th[contains(normalize-space(),\"ACTION\")]/preceding-sibling::th)+1]//a\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642348543822,
+        "stop" : 1642348708894,
+        "duration" : 165072
+      }
+    } ]
+  },
+  "e69665652071cd7dbb0840543625f353" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "bf55201ef4a5c3e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/bf55201ef4a5c3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642346536386,
+        "stop" : 1642346677575,
+        "duration" : 141189
+      }
+    }, {
+      "uid" : "fedeac54c9610f7e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/fedeac54c9610f7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642346536386,
+        "stop" : 1642346677575,
+        "duration" : 141189
+      }
+    }, {
+      "uid" : "3c128fb5c8ffd172",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3c128fb5c8ffd172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642346536386,
+        "stop" : 1642346677575,
+        "duration" : 141189
+      }
+    } ]
+  },
+  "8e8450ec9950eb9cb7c69ec24b70b726" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "9280fecdd69160cb",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9280fecdd69160cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347352298,
+        "stop" : 1642347495600,
+        "duration" : 143302
+      }
+    }, {
+      "uid" : "2bb34808d96cc0a0",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2bb34808d96cc0a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347352298,
+        "stop" : 1642347495600,
+        "duration" : 143302
+      }
+    }, {
+      "uid" : "50c6fb301824e07a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/50c6fb301824e07a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642312672094,
+        "stop" : 1642312813200,
+        "duration" : 141106
+      }
+    } ]
+  },
+  "93d6d1ca9399a9bad323f1cfa250885f" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "dbb34498a1384f7d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/dbb34498a1384f7d",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Suspension Appeals || Actual: ): expected '' to equal 'CS Suspension Appeals'",
+      "time" : {
+        "start" : 1642304620954,
+        "stop" : 1642304738597,
+        "duration" : 117643
+      }
+    }, {
+      "uid" : "6255fc25906d62ea",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6255fc25906d62ea",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Suspension Appeals || Actual: ): expected '' to equal 'CS Suspension Appeals'",
+      "time" : {
+        "start" : 1642304620954,
+        "stop" : 1642304738597,
+        "duration" : 117643
+      }
+    }, {
+      "uid" : "344ddcaa17050b6d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/344ddcaa17050b6d",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Suspension Appeals || Actual: ): expected '' to equal 'CS Suspension Appeals'",
+      "time" : {
+        "start" : 1642304620954,
+        "stop" : 1642304738597,
+        "duration" : 117643
+      }
+    }, {
+      "uid" : "4a09c747211d4266",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4a09c747211d4266",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Suspension Appeals || Actual: ): expected '' to equal 'CS Suspension Appeals'",
+      "time" : {
+        "start" : 1642304620954,
+        "stop" : 1642304738597,
+        "duration" : 117643
+      }
+    }, {
+      "uid" : "2ea053066a2a8f0d",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Suspension Appeals || Actual: ): expected '' to equal 'CS Suspension Appeals'",
+      "time" : {
+        "start" : 1642304620954,
+        "stop" : 1642304738597,
+        "duration" : 117643
+      }
+    } ]
+  },
+  "aa0c5322a490a1bd236052ce257ff874" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "39f22aa7fbcee05f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/39f22aa7fbcee05f",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642310919667,
+        "stop" : 1642311065041,
+        "duration" : 145374
+      }
+    }, {
+      "uid" : "b0349d7b65fa038b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b0349d7b65fa038b",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642310919667,
+        "stop" : 1642311065041,
+        "duration" : 145374
+      }
+    }, {
+      "uid" : "57f353665d229b9e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/57f353665d229b9e",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642310919667,
+        "stop" : 1642311065041,
+        "duration" : 145374
+      }
+    } ]
+  },
+  "da6d611eacc1902bb04e081b250f6aa" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "1225f830b98f775b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1225f830b98f775b",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303185221,
+        "stop" : 1642303328824,
+        "duration" : 143603
+      }
+    }, {
+      "uid" : "696b73b68ee097ab",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/696b73b68ee097ab",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303185221,
+        "stop" : 1642303328824,
+        "duration" : 143603
+      }
+    }, {
+      "uid" : "871890f44d64620a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/871890f44d64620a",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303185221,
+        "stop" : 1642303328824,
+        "duration" : 143603
+      }
+    }, {
+      "uid" : "5ffa6886a3290325",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5ffa6886a3290325",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303185221,
+        "stop" : 1642303328824,
+        "duration" : 143603
+      }
+    }, {
+      "uid" : "8a8b96e844fbd25f",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303185221,
+        "stop" : 1642303328824,
+        "duration" : 143603
+      }
+    } ]
+  },
+  "6ce113699c8b7c58cff1edff603e3d1f" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "8016beb8b402a3db",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8016beb8b402a3db",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304750782,
+        "stop" : 1642304873361,
+        "duration" : 122579
+      }
+    }, {
+      "uid" : "d618b2c1514f6863",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d618b2c1514f6863",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304750782,
+        "stop" : 1642304873361,
+        "duration" : 122579
+      }
+    }, {
+      "uid" : "7c1687cea844fe72",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7c1687cea844fe72",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304750782,
+        "stop" : 1642304873361,
+        "duration" : 122579
+      }
+    }, {
+      "uid" : "8e3cd5efde6528e7",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8e3cd5efde6528e7",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304750782,
+        "stop" : 1642304873361,
+        "duration" : 122579
+      }
+    }, {
+      "uid" : "56554b432647503c",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304750782,
+        "stop" : 1642304873361,
+        "duration" : 122579
+      }
+    } ]
+  },
+  "d72a032a309b1dfa7cc98c4dd2d6c5e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bbde6e5e20cb963a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/bbde6e5e20cb963a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642352712400,
+        "stop" : 1642353548658,
+        "duration" : 836258
+      }
+    } ]
+  },
+  "19b02a26041a6b5d48ecafe65089659d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "96b3fc33b6f75d67",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/96b3fc33b6f75d67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642346537777,
+        "stop" : 1642346669534,
+        "duration" : 131757
+      }
+    }, {
+      "uid" : "2c79aedc1ea3ee90",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2c79aedc1ea3ee90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642346537777,
+        "stop" : 1642346669534,
+        "duration" : 131757
+      }
+    }, {
+      "uid" : "c87e4ef0cf61a7c6",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c87e4ef0cf61a7c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642346537777,
+        "stop" : 1642346669534,
+        "duration" : 131757
+      }
+    } ]
+  },
+  "2b359d18723dccfed765c2d6e20f879" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "f2104fdb5b4c1282",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f2104fdb5b4c1282",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303508187,
+        "stop" : 1642303628315,
+        "duration" : 120128
+      }
+    }, {
+      "uid" : "9cc6907969037fd4",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9cc6907969037fd4",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303508187,
+        "stop" : 1642303628315,
+        "duration" : 120128
+      }
+    }, {
+      "uid" : "db219269f70ca8aa",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/db219269f70ca8aa",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303508187,
+        "stop" : 1642303628315,
+        "duration" : 120128
+      }
+    }, {
+      "uid" : "f8ec1244cfe36d4c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f8ec1244cfe36d4c",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303508187,
+        "stop" : 1642303628315,
+        "duration" : 120128
+      }
+    }, {
+      "uid" : "87037e7fbc60c0ba",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303508187,
+        "stop" : 1642303628315,
+        "duration" : 120128
+      }
+    } ]
+  },
+  "6b9c28514d0643a26b834de5595313a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "59a3fbd78c34b2cc",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/59a3fbd78c34b2cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347185262,
+        "stop" : 1642347324948,
+        "duration" : 139686
+      }
+    }, {
+      "uid" : "f1b24ec80d7b3ea3",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f1b24ec80d7b3ea3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347185262,
+        "stop" : 1642347324948,
+        "duration" : 139686
+      }
+    }, {
+      "uid" : "10eee9520ff12430",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/10eee9520ff12430",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642312520812,
+        "stop" : 1642312651941,
+        "duration" : 131129
+      }
+    } ]
+  },
+  "3f7eeca1719138f2e4db2797c5b0ed3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6ac59fdc3a283ac6",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6ac59fdc3a283ac6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347869918,
+        "stop" : 1642348070937,
+        "duration" : 201019
+      }
+    }, {
+      "uid" : "7ca21bb07b8e56f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7ca21bb07b8e56f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347869918,
+        "stop" : 1642348070937,
+        "duration" : 201019
+      }
+    } ]
+  },
+  "c1b06af5f8f67b735868840179e613" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "a37b75268c8306dd",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a37b75268c8306dd",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Purchase Support || Actual: ): expected '' to equal 'CS Purchase Support'",
+      "time" : {
+        "start" : 1642304491560,
+        "stop" : 1642304604404,
+        "duration" : 112844
+      }
+    }, {
+      "uid" : "fa198bce565bcaed",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/fa198bce565bcaed",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Purchase Support || Actual: ): expected '' to equal 'CS Purchase Support'",
+      "time" : {
+        "start" : 1642304491560,
+        "stop" : 1642304604404,
+        "duration" : 112844
+      }
+    }, {
+      "uid" : "95e01703a3cd8c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/95e01703a3cd8c",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Purchase Support || Actual: ): expected '' to equal 'CS Purchase Support'",
+      "time" : {
+        "start" : 1642304491560,
+        "stop" : 1642304604404,
+        "duration" : 112844
+      }
+    }, {
+      "uid" : "58bcc2aca67e01bc",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/58bcc2aca67e01bc",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Purchase Support || Actual: ): expected '' to equal 'CS Purchase Support'",
+      "time" : {
+        "start" : 1642304491560,
+        "stop" : 1642304604404,
+        "duration" : 112844
+      }
+    }, {
+      "uid" : "f14de8bfa9142a40",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Purchase Support || Actual: ): expected '' to equal 'CS Purchase Support'",
+      "time" : {
+        "start" : 1642304491560,
+        "stop" : 1642304604404,
+        "duration" : 112844
+      }
+    } ]
+  },
+  "793d757a30f9104048ee24755dd865f6" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "dc846f98cef9de9b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/dc846f98cef9de9b",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642311066254,
+        "stop" : 1642311206216,
+        "duration" : 139962
+      }
+    }, {
+      "uid" : "4ede0c455183e846",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4ede0c455183e846",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642311066254,
+        "stop" : 1642311206216,
+        "duration" : 139962
+      }
+    }, {
+      "uid" : "15366fcfe8ca767",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/15366fcfe8ca767",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Partner Help || Actual: ): expected '' to equal 'CS Partner Help'",
+      "time" : {
+        "start" : 1642311066254,
+        "stop" : 1642311206216,
+        "duration" : 139962
+      }
+    } ]
+  },
+  "d0456fa94abb859426cdb3fb25eb544a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "1cd4eaeb49c0a684",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1cd4eaeb49c0a684",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642309562752,
+        "stop" : 1642309740407,
+        "duration" : 177655
+      }
+    }, {
+      "uid" : "26aecbef5202fbe6",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/26aecbef5202fbe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642309562752,
+        "stop" : 1642309740407,
+        "duration" : 177655
+      }
+    }, {
+      "uid" : "24a4efe516f59142",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/24a4efe516f59142",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642309562752,
+        "stop" : 1642309740407,
+        "duration" : 177655
+      }
+    }, {
+      "uid" : "b099ba66b4bbbc9e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b099ba66b4bbbc9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642309562752,
+        "stop" : 1642309740407,
+        "duration" : 177655
+      }
+    } ]
+  },
+  "130dcdeb5dffecd666e6636d36120e1b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "84f1344cc01684ca",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/84f1344cc01684ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642346994405,
+        "stop" : 1642347116116,
+        "duration" : 121711
+      }
+    }, {
+      "uid" : "1fa4b95a76a036be",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1fa4b95a76a036be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642346994405,
+        "stop" : 1642347116116,
+        "duration" : 121711
+      }
+    }, {
+      "uid" : "205694b70d5caf26",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/205694b70d5caf26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642312271251,
+        "stop" : 1642312381214,
+        "duration" : 109963
+      }
+    } ]
+  },
+  "eb1619d943e0d5a7d50a859fad571547" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "a1ca4a9bb753152e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a1ca4a9bb753152e",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304081496,
+        "stop" : 1642304207533,
+        "duration" : 126037
+      }
+    }, {
+      "uid" : "5f8f28435a015ad9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5f8f28435a015ad9",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304081496,
+        "stop" : 1642304207533,
+        "duration" : 126037
+      }
+    }, {
+      "uid" : "840b6cddea5d7f8",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/840b6cddea5d7f8",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304081496,
+        "stop" : 1642304207533,
+        "duration" : 126037
+      }
+    }, {
+      "uid" : "eb82a35fe351bcfa",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/eb82a35fe351bcfa",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304081496,
+        "stop" : 1642304207533,
+        "duration" : 126037
+      }
+    }, {
+      "uid" : "71e9a54569263bce",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304081496,
+        "stop" : 1642304207533,
+        "duration" : 126037
+      }
+    } ]
+  },
+  "5d0e61a1beceea8bec5cf9d8ff831b73" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "ae798578d9c9e3bc",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ae798578d9c9e3bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347172508,
+        "stop" : 1642347319264,
+        "duration" : 146756
+      }
+    }, {
+      "uid" : "aca574e0c54ca8c5",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/aca574e0c54ca8c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347172508,
+        "stop" : 1642347319264,
+        "duration" : 146756
+      }
+    }, {
+      "uid" : "d3906e17e382d721",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d3906e17e382d721",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642312442027,
+        "stop" : 1642312577350,
+        "duration" : 135323
+      }
+    } ]
+  },
+  "e694d4ff47637b6f92f0b1f128013632" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "f09d555db6bc4f46",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f09d555db6bc4f46",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303358412,
+        "stop" : 1642303488454,
+        "duration" : 130042
+      }
+    }, {
+      "uid" : "4fe843a060cc560d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4fe843a060cc560d",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303358412,
+        "stop" : 1642303488454,
+        "duration" : 130042
+      }
+    }, {
+      "uid" : "b1ae416dd2190f2e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b1ae416dd2190f2e",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303358412,
+        "stop" : 1642303488454,
+        "duration" : 130042
+      }
+    }, {
+      "uid" : "38432b58ba49a34b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/38432b58ba49a34b",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303358412,
+        "stop" : 1642303488454,
+        "duration" : 130042
+      }
+    }, {
+      "uid" : "2d610f69f479b217",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303358412,
+        "stop" : 1642303488454,
+        "duration" : 130042
+      }
+    } ]
+  },
+  "a2593d8b5754c85d7b82b0bce1141010" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "19516ce7affff9bd",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/19516ce7affff9bd",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303799074,
+        "stop" : 1642303924296,
+        "duration" : 125222
+      }
+    }, {
+      "uid" : "82095fab3083974c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/82095fab3083974c",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303799074,
+        "stop" : 1642303924296,
+        "duration" : 125222
+      }
+    }, {
+      "uid" : "9cca05284e682c08",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9cca05284e682c08",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303799074,
+        "stop" : 1642303924296,
+        "duration" : 125222
+      }
+    }, {
+      "uid" : "aa8f2b58589d8c1b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/aa8f2b58589d8c1b",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303799074,
+        "stop" : 1642303924296,
+        "duration" : 125222
+      }
+    }, {
+      "uid" : "1c6a372dfd23088b",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303799074,
+        "stop" : 1642303924296,
+        "duration" : 125222
+      }
+    } ]
+  },
+  "974464b1ed45657dfae6e0110eb4dec1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "d11333fc22ea4720",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d11333fc22ea4720",
+      "status" : "broken",
+      "statusDetails" : "element (\"span[class*=\"profileName\"]\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642312098807,
+        "stop" : 1642312182141,
+        "duration" : 83334
+      }
+    }, {
+      "uid" : "3eccb4f34ba4da7d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3eccb4f34ba4da7d",
+      "status" : "broken",
+      "statusDetails" : "element (\"span[class*=\"profileName\"]\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642312098807,
+        "stop" : 1642312182141,
+        "duration" : 83334
+      }
+    }, {
+      "uid" : "a963d544f868d74",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a963d544f868d74",
+      "status" : "broken",
+      "statusDetails" : "element (\"span[class*=\"profileName\"]\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642312098807,
+        "stop" : 1642312182141,
+        "duration" : 83334
+      }
+    } ]
+  },
+  "ac39e08cc1325546137db817dc5d2a13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb65b825d3348e72",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/fb65b825d3348e72",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a aria-selected=\"true\" data-tab-name=\"Case.CSSendEmailAction\" role=\"tab\" aria-controls=\"11303:0\" tabindex=\"0\" title=\"Email\" class=\"tabHeader\" data-aura-rendered-by=\"11326:0\" href=\"javascript:void(0);\" data-refid=\"tab-name\">...</a> is not clickable at point (203, 303). Other element would receive the click: <one-record-home-flexipage2 data-aura-rendered-by=\"11018:0\" forcegenerated-adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view_adgrollup_template___forcegenerated__flexipage_recordpage___cs_console_layout___case___view-host=\"\"></one-record-home-flexipage2>\n                  (Session info: headless chrome=97.0.4692.71)",
+      "time" : {
+        "start" : 1642351589853,
+        "stop" : 1642351990688,
+        "duration" : 400835
+      }
+    } ]
+  },
+  "35bea2337da1d06e57407e4da1fd5507" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "81622b7f26bae6cb",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/81622b7f26bae6cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642348326932,
+        "stop" : 1642348525845,
+        "duration" : 198913
+      }
+    }, {
+      "uid" : "2bfd284be23b6b0a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2bfd284be23b6b0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642348326932,
+        "stop" : 1642348525845,
+        "duration" : 198913
+      }
+    } ]
+  },
+  "26a2c14db9d6ad081cbf46691cbb150d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3365cb76d114e960",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3365cb76d114e960",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition failed with the following reason: Timeout awaiting 'request' for 100000ms when running \"execute/sync\" with method \"POST\" and args \"function isElementClickable(elem) {\n                    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n                        return false;\n                    }\n                    // Edge before switching to Chromium\n                    const isOldEdge = !!window.StyleMedia;\n                    // returns true for Chrome and Firefox and false for Safari, Edge and IE\n                    const scrollIntoViewFullSupport = !(window.safari || isOldEdge);\n                    // get overlapping element\n                    function getOverlappingElement(elem, context) {\n                        context = context || document;\n                        const elemDimension = elem.getBoundingClientRect();\n                        const x = elemDimension.left + (elem.clientWidth / 2);\n                        const y = elemDimension.top + (elem.clientHeight / 2);\n                        return context.elementFromPoint(x, y);\n                    }\n                    // get overlapping element rects (currently only the first)\n                    // applicable if element's text is multiline.\n                    function getOverlappingRects(elem, context) {\n                        context = context || document;\n                        const elems = [];\n                        const rects = elem.getClientRects();\n                        // webdriver clicks on center of the first element's rect (line of text), it might change in future\n                        const rect = rects[0];\n                        const x = rect.left + (rect.width / 2);\n                        const y = rect.top + (rect.height / 2);\n                        elems.push(context.elementFromPoint(x, y));\n                        return elems;\n                    }\n                    // get overlapping elements\n                    function getOverlappingElements(elem, context) {\n                        return [getOverlappingElement(elem, context)].concat(getOverlappingRects(elem, context));\n                    }\n                    // is a node a descendant of a given node\n                    function nodeContains(elem, otherNode) {\n                        // Edge doesn't support neither Shadow Dom nor contains if ShadowRoot polyfill is used\n                        if (isOldEdge) {\n                            let tmpElement = otherNode;\n                            while (tmpElement) {\n                                if (tmpElement === elem) {\n                                    return true;\n                                }\n                                tmpElement = tmpElement.parentNode;\n                                // DocumentFragment / ShadowRoot polyfill like ShadyRoot\n                                if (tmpElement && tmpElement.nodeType === 11 && tmpElement.host) {\n                                    tmpElement = tmpElement.host;\n                                }\n                            }\n                            return false;\n                        }\n                        return elem.contains(otherNode);\n                    }\n                    // is one of overlapping elements the `elem` or one of its child\n                    function isOverlappingElementMatch(elementsFromPoint, elem) {\n                        if (elementsFromPoint.some(function (elementFromPoint) {\n                            return elementFromPoint === elem || nodeContains(elem, elementFromPoint);\n                        })) {\n                            return true;\n                        }\n                        // shadow root\n                        // filter unique elements with shadowRoot\n                        // @ts-ignore\n                        let elemsWithShadowRoot = [].concat(elementsFromPoint);\n                        elemsWithShadowRoot = elemsWithShadowRoot.filter(function (x) {\n                            return x && x.shadowRoot && x.shadowRoot.elementFromPoint;\n                        });\n                        // getOverlappingElements of every element with shadowRoot\n                        let shadowElementsFromPoint = [];\n                        for (let i = 0; i < elemsWithShadowRoot.length; ++i) {\n                            let shadowElement = elemsWithShadowRoot[i];\n                            shadowElementsFromPoint = shadowElementsFromPoint.concat(getOverlappingElements(elem, shadowElement.shadowRoot));\n                        }\n                        // remove duplicates and parents\n                        // @ts-ignore\n                        shadowElementsFromPoint = [].concat(shadowElementsFromPoint);\n                        shadowElementsFromPoint = shadowElementsFromPoint.filter(function (x) {\n                            return !elementsFromPoint.includes(x);\n                        });\n                        if (shadowElementsFromPoint.length === 0) {\n                            return false;\n                        }\n                        return isOverlappingElementMatch(shadowElementsFromPoint, elem);\n                    }\n                    // copied from `isElementInViewport.js`\n                    function isElementInViewport(elem) {\n                        if (!elem.getBoundingClientRect) {\n                            return false;\n                        }\n                        const rect = elem.getBoundingClientRect();\n                        const windowHeight = (window.innerHeight || document.documentElement.clientHeight);\n                        const windowWidth = (window.innerWidth || document.documentElement.clientWidth);\n                        const vertInView = (rect.top <= windowHeight) && ((rect.top + rect.height) > 0);\n                        const horInView = (rect.left <= windowWidth) && ((rect.left + rect.width) > 0);\n                        return (vertInView && horInView);\n                    }\n                    function isClickable(elem) {\n                        return (isElementInViewport(elem) && elem.disabled !== true &&\n                            isOverlappingElementMatch(getOverlappingElements(elem), elem));\n                    }\n                    // scroll to the element if it's not clickable\n                    if (!isClickable(elem)) {\n                        // works well in dialogs, but the element may be still overlapped by some sticky header/footer\n                        elem.scrollIntoView(scrollIntoViewFullSupport ? { block: 'nearest', inline: 'nearest' } : false);\n                        // if element is still not clickable take another scroll attempt\n                        if (!isClickable(elem)) {\n                            // scroll to element, try put it in the screen center.\n                            // Should definitely work even if element was covered with sticky header/footer\n                            elem.scrollIntoView(scrollIntoViewFullSupport ? { block: 'center', inline: 'center' } : true);\n                            return isClickable(elem);\n                        }\n                    }\n                    return true;\n                }\"",
+      "time" : {
+        "start" : 1642353584624,
+        "stop" : 1642354230733,
+        "duration" : 646109
+      }
+    } ]
+  },
+  "a54fb73059d97f77d2573b3b60bbffaf" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "4fbaeca26a9640c3",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4fbaeca26a9640c3",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642310745278,
+        "stop" : 1642310893256,
+        "duration" : 147978
+      }
+    }, {
+      "uid" : "765c3e864f61ffbc",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/765c3e864f61ffbc",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642310745278,
+        "stop" : 1642310893256,
+        "duration" : 147978
+      }
+    }, {
+      "uid" : "9264343a32d8eb90",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9264343a32d8eb90",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642310745278,
+        "stop" : 1642310893256,
+        "duration" : 147978
+      }
+    } ]
+  },
+  "488675b478712d37b74f77304f24cda6" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "a556258d284303a6",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a556258d284303a6",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Purchase Support Fraud || Actual: ): expected '' to equal 'CS Purchase Support Fraud'",
+      "time" : {
+        "start" : 1642304522109,
+        "stop" : 1642304638486,
+        "duration" : 116377
+      }
+    }, {
+      "uid" : "109cd21ac6d10c3c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/109cd21ac6d10c3c",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Purchase Support Fraud || Actual: ): expected '' to equal 'CS Purchase Support Fraud'",
+      "time" : {
+        "start" : 1642304522109,
+        "stop" : 1642304638486,
+        "duration" : 116377
+      }
+    }, {
+      "uid" : "38459e9d496d28f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/38459e9d496d28f",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Purchase Support Fraud || Actual: ): expected '' to equal 'CS Purchase Support Fraud'",
+      "time" : {
+        "start" : 1642304522109,
+        "stop" : 1642304638486,
+        "duration" : 116377
+      }
+    }, {
+      "uid" : "42b1bb15ffc9f14a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/42b1bb15ffc9f14a",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Purchase Support Fraud || Actual: ): expected '' to equal 'CS Purchase Support Fraud'",
+      "time" : {
+        "start" : 1642304522109,
+        "stop" : 1642304638486,
+        "duration" : 116377
+      }
+    }, {
+      "uid" : "17816b5391b25bb7",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Purchase Support Fraud || Actual: ): expected '' to equal 'CS Purchase Support Fraud'",
+      "time" : {
+        "start" : 1642304522109,
+        "stop" : 1642304638486,
+        "duration" : 116377
+      }
+    } ]
+  },
+  "c2a900226724d0b1e10caace30bc6c12" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "849137f88f90e5b1",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/849137f88f90e5b1",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Suspension Appeals || Actual: ): expected '' to equal 'CS Suspension Appeals'",
+      "time" : {
+        "start" : 1642304653787,
+        "stop" : 1642304768737,
+        "duration" : 114950
+      }
+    }, {
+      "uid" : "64604ffe5474864f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/64604ffe5474864f",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Suspension Appeals || Actual: ): expected '' to equal 'CS Suspension Appeals'",
+      "time" : {
+        "start" : 1642304653787,
+        "stop" : 1642304768737,
+        "duration" : 114950
+      }
+    }, {
+      "uid" : "a60b6410b8c66835",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a60b6410b8c66835",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Suspension Appeals || Actual: ): expected '' to equal 'CS Suspension Appeals'",
+      "time" : {
+        "start" : 1642304653787,
+        "stop" : 1642304768737,
+        "duration" : 114950
+      }
+    }, {
+      "uid" : "3ba73b76dccb0e30",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3ba73b76dccb0e30",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Suspension Appeals || Actual: ): expected '' to equal 'CS Suspension Appeals'",
+      "time" : {
+        "start" : 1642304653787,
+        "stop" : 1642304768737,
+        "duration" : 114950
+      }
+    }, {
+      "uid" : "7ae007fbcbd3ce68",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Suspension Appeals || Actual: ): expected '' to equal 'CS Suspension Appeals'",
+      "time" : {
+        "start" : 1642304653787,
+        "stop" : 1642304768737,
+        "duration" : 114950
+      }
+    } ]
+  },
+  "2fd7f9a4864dfbe73d0b7f9c2e80ab23" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "b07d562abbce85a9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b07d562abbce85a9",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//div[contains(@class, \"active\") and contains(@class, \"window\") and contains(@class, \"Page\") and .//h2[contains(normalize-space(), \"Sparkle Banner \")]]//div[./div[normalize-space() = \"Translations\"]]//div[./*[normalize-space() = \"Chinese (Mainland China)\"]]//span[contains(@class, \"checkbox_faux\")])[last()]\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642311263495,
+        "stop" : 1642311527260,
+        "duration" : 263765
+      }
+    }, {
+      "uid" : "790229effc43bcbc",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/790229effc43bcbc",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//div[contains(@class, \"active\") and contains(@class, \"window\") and contains(@class, \"Page\") and .//h2[contains(normalize-space(), \"Sparkle Banner \")]]//div[./div[normalize-space() = \"Translations\"]]//div[./*[normalize-space() = \"Chinese (Mainland China)\"]]//span[contains(@class, \"checkbox_faux\")])[last()]\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642311263495,
+        "stop" : 1642311527260,
+        "duration" : 263765
+      }
+    }, {
+      "uid" : "14d80d52865b1ab6",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/14d80d52865b1ab6",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//div[contains(@class, \"active\") and contains(@class, \"window\") and contains(@class, \"Page\") and .//h2[contains(normalize-space(), \"Sparkle Banner \")]]//div[./div[normalize-space() = \"Translations\"]]//div[./*[normalize-space() = \"Chinese (Mainland China)\"]]//span[contains(@class, \"checkbox_faux\")])[last()]\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642311263495,
+        "stop" : 1642311527260,
+        "duration" : 263765
+      }
+    } ]
+  },
+  "1aafe11327da53536942a602cae1b84" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94cae4f787971718",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/94cae4f787971718",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642352697359,
+        "stop" : 1642353532503,
+        "duration" : 835144
+      }
+    } ]
+  },
+  "a1af308aa9ab1f01af0d1f8db6e62675" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "d92df53c46776ee",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d92df53c46776ee",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303355219,
+        "stop" : 1642303496297,
+        "duration" : 141078
+      }
+    }, {
+      "uid" : "cf34a8efbd9cd121",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/cf34a8efbd9cd121",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303355219,
+        "stop" : 1642303496297,
+        "duration" : 141078
+      }
+    }, {
+      "uid" : "69859d48ac2b4cf5",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/69859d48ac2b4cf5",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303355219,
+        "stop" : 1642303496297,
+        "duration" : 141078
+      }
+    }, {
+      "uid" : "6a0850f4370616cc",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6a0850f4370616cc",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303355219,
+        "stop" : 1642303496297,
+        "duration" : 141078
+      }
+    }, {
+      "uid" : "d372b7182c16dfa9",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Affiliates || Actual: ): expected '' to equal 'CS Affiliates'",
+      "time" : {
+        "start" : 1642303355219,
+        "stop" : 1642303496297,
+        "duration" : 141078
+      }
+    } ]
+  },
+  "645778092a8841df4855bf8f09a93a1e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d247106972daeedf",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d247106972daeedf",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[contains(@class, \"tabsetHeader\")]//ul[contains(@class, \"tabBarItems\")]//li[contains(@class, \"tabItem\") and contains(@class, \"active\")]//button[contains(@title, \"Close\")]\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642351938019,
+        "stop" : 1642352148870,
+        "duration" : 210851
+      }
+    } ]
+  },
+  "8cabf7e90d867ad1b053b22ad298cff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "948eef7cddd4f55d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/948eef7cddd4f55d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347491854,
+        "stop" : 1642347621292,
+        "duration" : 129438
+      }
+    }, {
+      "uid" : "e7891f1dd43b113e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e7891f1dd43b113e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347491854,
+        "stop" : 1642347621292,
+        "duration" : 129438
+      }
+    }, {
+      "uid" : "5a7a34c6e1f59611",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5a7a34c6e1f59611",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642312751475,
+        "stop" : 1642312881278,
+        "duration" : 129803
+      }
+    } ]
+  },
+  "e214bcfe94610e46684737a190613813" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "41907ee28544355",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/41907ee28544355",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[contains(@class,\"active\") and contains(@class,\"oneContent\")]//div[contains(@class,\"slds-checkbox\") and .//input[@data-username=\"Arindom Das\"]]\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642348727423,
+        "stop" : 1642348877225,
+        "duration" : 149802
+      }
+    }, {
+      "uid" : "601995c563503876",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/601995c563503876",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[contains(@class,\"active\") and contains(@class,\"oneContent\")]//div[contains(@class,\"slds-checkbox\") and .//input[@data-username=\"Arindom Das\"]]\") still not clickable after 50000ms",
+      "time" : {
+        "start" : 1642348727423,
+        "stop" : 1642348877225,
+        "duration" : 149802
+      }
+    } ]
+  },
+  "dd71550e04f3ca114b52814fed56f998" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "91583c4dcce69493",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/91583c4dcce69493",
+      "status" : "failed",
+      "statusDetails" : "Case owner mismatch (Expected: AI Handled Cases || Actual: CS General Support): expected 'CS General Support' to equal 'AI Handled Cases'",
+      "time" : {
+        "start" : 1642303185705,
+        "stop" : 1642303327803,
+        "duration" : 142098
+      }
+    }, {
+      "uid" : "66a852618d91d78e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/66a852618d91d78e",
+      "status" : "failed",
+      "statusDetails" : "Case owner mismatch (Expected: AI Handled Cases || Actual: CS General Support): expected 'CS General Support' to equal 'AI Handled Cases'",
+      "time" : {
+        "start" : 1642303185705,
+        "stop" : 1642303327803,
+        "duration" : 142098
+      }
+    }, {
+      "uid" : "ae14e4b8c756e68c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ae14e4b8c756e68c",
+      "status" : "failed",
+      "statusDetails" : "Case owner mismatch (Expected: AI Handled Cases || Actual: CS General Support): expected 'CS General Support' to equal 'AI Handled Cases'",
+      "time" : {
+        "start" : 1642303185705,
+        "stop" : 1642303327803,
+        "duration" : 142098
+      }
+    }, {
+      "uid" : "dc66df0d1eff77d9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/dc66df0d1eff77d9",
+      "status" : "failed",
+      "statusDetails" : "Case owner mismatch (Expected: AI Handled Cases || Actual: CS General Support): expected 'CS General Support' to equal 'AI Handled Cases'",
+      "time" : {
+        "start" : 1642303185705,
+        "stop" : 1642303327803,
+        "duration" : 142098
+      }
+    }, {
+      "uid" : "5be95b20d53863f6",
+      "status" : "failed",
+      "statusDetails" : "Case owner mismatch (Expected: AI Handled Cases || Actual: CS General Support): expected 'CS General Support' to equal 'AI Handled Cases'",
+      "time" : {
+        "start" : 1642303185705,
+        "stop" : 1642303327803,
+        "duration" : 142098
+      }
+    } ]
+  },
+  "c91d9856a09eed7d5002f3e64e8bab10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "2f43b6371eec8e3c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2f43b6371eec8e3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347336494,
+        "stop" : 1642347474693,
+        "duration" : 138199
+      }
+    }, {
+      "uid" : "dd471628d06bfbd5",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/dd471628d06bfbd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642347336494,
+        "stop" : 1642347474693,
+        "duration" : 138199
+      }
+    }, {
+      "uid" : "33cd479e5ad0ec2c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/33cd479e5ad0ec2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642312595524,
+        "stop" : 1642312725554,
+        "duration" : 130030
+      }
+    } ]
+  },
+  "384c35fe89ab5248d2cc7d620c068a40" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "30ed6452176dd393",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/30ed6452176dd393",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303662440,
+        "stop" : 1642303783579,
+        "duration" : 121139
+      }
+    }, {
+      "uid" : "8de391bbac3091f9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8de391bbac3091f9",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303662440,
+        "stop" : 1642303783579,
+        "duration" : 121139
+      }
+    }, {
+      "uid" : "6fffbf173a40e6c6",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6fffbf173a40e6c6",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303662440,
+        "stop" : 1642303783579,
+        "duration" : 121139
+      }
+    }, {
+      "uid" : "5bb9bf8501bd5f2e",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5bb9bf8501bd5f2e",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303662440,
+        "stop" : 1642303783579,
+        "duration" : 121139
+      }
+    }, {
+      "uid" : "a956053ff4aeae18",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303662440,
+        "stop" : 1642303783579,
+        "duration" : 121139
+      }
+    } ]
+  },
+  "48ee255457404779f8d10574d69f37a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3aabd592f18d4aa9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3aabd592f18d4aa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642352163432,
+        "stop" : 1642352325872,
+        "duration" : 162440
+      }
+    } ]
+  },
+  "11e44383e867f93ca18b50c5250951a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "bb14011c779b6c02",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/bb14011c779b6c02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642348526529,
+        "stop" : 1642348722237,
+        "duration" : 195708
+      }
+    }, {
+      "uid" : "f3525343009c7add",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f3525343009c7add",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642348526529,
+        "stop" : 1642348722237,
+        "duration" : 195708
+      }
+    } ]
+  },
+  "6496d739788669604aa181a7ea4fb403" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "29cfcb6887180a76",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/29cfcb6887180a76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642309556954,
+        "stop" : 1642309749548,
+        "duration" : 192594
+      }
+    }, {
+      "uid" : "a67de4600fd507b0",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a67de4600fd507b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642309556954,
+        "stop" : 1642309749548,
+        "duration" : 192594
+      }
+    }, {
+      "uid" : "f5c908db9dc2145",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f5c908db9dc2145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642309556954,
+        "stop" : 1642309749548,
+        "duration" : 192594
+      }
+    }, {
+      "uid" : "8fb7088956722a87",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8fb7088956722a87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642309556954,
+        "stop" : 1642309749548,
+        "duration" : 192594
+      }
+    } ]
+  },
+  "5cf9f9fe9df3ba074a2b6b03172468f8" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "98ad618bcf883c8f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/98ad618bcf883c8f",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304209724,
+        "stop" : 1642304326821,
+        "duration" : 117097
+      }
+    }, {
+      "uid" : "43eb3ff896d62228",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/43eb3ff896d62228",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304209724,
+        "stop" : 1642304326821,
+        "duration" : 117097
+      }
+    }, {
+      "uid" : "4de35ab8a3f42554",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4de35ab8a3f42554",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304209724,
+        "stop" : 1642304326821,
+        "duration" : 117097
+      }
+    }, {
+      "uid" : "35ef4591bcfd2b25",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/35ef4591bcfd2b25",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304209724,
+        "stop" : 1642304326821,
+        "duration" : 117097
+      }
+    }, {
+      "uid" : "6ef0df5e73f51e47",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304209724,
+        "stop" : 1642304326821,
+        "duration" : 117097
+      }
+    } ]
+  },
+  "381331964f6411c47cb4c2ec23bf6c84" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "5ebca08eb35dd299",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5ebca08eb35dd299",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642303939250,
+        "stop" : 1642304056332,
+        "duration" : 117082
+      }
+    }, {
+      "uid" : "d4690df47dc87e88",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d4690df47dc87e88",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642303939250,
+        "stop" : 1642304056332,
+        "duration" : 117082
+      }
+    }, {
+      "uid" : "ae32b09418ad1348",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ae32b09418ad1348",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642303939250,
+        "stop" : 1642304056332,
+        "duration" : 117082
+      }
+    }, {
+      "uid" : "53aa8e92d89ded0",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/53aa8e92d89ded0",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642303939250,
+        "stop" : 1642304056332,
+        "duration" : 117082
+      }
+    }, {
+      "uid" : "f173730559f2ca6d",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS General Support || Actual: ): expected '' to equal 'CS General Support'",
+      "time" : {
+        "start" : 1642303939250,
+        "stop" : 1642304056332,
+        "duration" : 117082
+      }
+    } ]
+  },
+  "ceb9454619dadd857f6ef0cd2b006b6f" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "15b3e1e793da775c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/15b3e1e793da775c",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304783296,
+        "stop" : 1642304907207,
+        "duration" : 123911
+      }
+    }, {
+      "uid" : "c43e767591a93c1a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c43e767591a93c1a",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304783296,
+        "stop" : 1642304907207,
+        "duration" : 123911
+      }
+    }, {
+      "uid" : "fe6da31a763efa3c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/fe6da31a763efa3c",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304783296,
+        "stop" : 1642304907207,
+        "duration" : 123911
+      }
+    }, {
+      "uid" : "f8488b24883548fd",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f8488b24883548fd",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304783296,
+        "stop" : 1642304907207,
+        "duration" : 123911
+      }
+    }, {
+      "uid" : "ee8ca28363f9945",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304783296,
+        "stop" : 1642304907207,
+        "duration" : 123911
+      }
+    } ]
+  },
+  "48fa7281da68deb982631708a981c0f8" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "4aa7a9afd619ea50",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4aa7a9afd619ea50",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304075380,
+        "stop" : 1642304191904,
+        "duration" : 116524
+      }
+    }, {
+      "uid" : "4d86abb13e206171",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4d86abb13e206171",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304075380,
+        "stop" : 1642304191904,
+        "duration" : 116524
+      }
+    }, {
+      "uid" : "f6e0a8738ca4834c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f6e0a8738ca4834c",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304075380,
+        "stop" : 1642304191904,
+        "duration" : 116524
+      }
+    }, {
+      "uid" : "b5eeaff783c8e3f4",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b5eeaff783c8e3f4",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304075380,
+        "stop" : 1642304191904,
+        "duration" : 116524
+      }
+    }, {
+      "uid" : "49a371ed528e8ca7",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Login Issues || Actual: ): expected '' to equal 'CS Login Issues'",
+      "time" : {
+        "start" : 1642304075380,
+        "stop" : 1642304191904,
+        "duration" : 116524
+      }
+    } ]
+  },
+  "9be09309c0333588de282ff5235ed407" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "ca88c95e4135b195",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ca88c95e4135b195",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303652766,
+        "stop" : 1642303771140,
+        "duration" : 118374
+      }
+    }, {
+      "uid" : "a7bbba009ab9f1fb",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a7bbba009ab9f1fb",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303652766,
+        "stop" : 1642303771140,
+        "duration" : 118374
+      }
+    }, {
+      "uid" : "787e90d30a75bd00",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/787e90d30a75bd00",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303652766,
+        "stop" : 1642303771140,
+        "duration" : 118374
+      }
+    }, {
+      "uid" : "5505f80518891304",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5505f80518891304",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303652766,
+        "stop" : 1642303771140,
+        "duration" : 118374
+      }
+    }, {
+      "uid" : "2e798056219e551e",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303652766,
+        "stop" : 1642303771140,
+        "duration" : 118374
+      }
+    } ]
+  },
+  "5e019e769d803cf5cac6e0e175c6bb1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "7a5e05c0bf444549",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7a5e05c0bf444549",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642346993585,
+        "stop" : 1642347151148,
+        "duration" : 157563
+      }
+    }, {
+      "uid" : "4f86420b24028adb",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4f86420b24028adb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642346993585,
+        "stop" : 1642347151148,
+        "duration" : 157563
+      }
+    }, {
+      "uid" : "29b1334e0a24e5eb",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/29b1334e0a24e5eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642312361018,
+        "stop" : 1642312502976,
+        "duration" : 141958
+      }
+    } ]
+  },
+  "d912f5aa01af5e8f45445e89e64ff785" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "791a545189b6ba08",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/791a545189b6ba08",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303792752,
+        "stop" : 1642303916464,
+        "duration" : 123712
+      }
+    }, {
+      "uid" : "3de046185bd5bb89",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3de046185bd5bb89",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303792752,
+        "stop" : 1642303916464,
+        "duration" : 123712
+      }
+    }, {
+      "uid" : "78c0b0e54bc79466",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/78c0b0e54bc79466",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303792752,
+        "stop" : 1642303916464,
+        "duration" : 123712
+      }
+    }, {
+      "uid" : "8fd095aba71be6db",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8fd095aba71be6db",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303792752,
+        "stop" : 1642303916464,
+        "duration" : 123712
+      }
+    }, {
+      "uid" : "2a230e641412aae7",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS Client Support || Actual: ): expected '' to equal 'CS Client Support'",
+      "time" : {
+        "start" : 1642303792752,
+        "stop" : 1642303916464,
+        "duration" : 123712
+      }
+    } ]
+  },
+  "d55be0c3a9b49c0ce1d0e058683c91e2" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "98b7ed75087c82ee",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/98b7ed75087c82ee",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304923525,
+        "stop" : 1642305037014,
+        "duration" : 113489
+      }
+    }, {
+      "uid" : "524fee6525dd55e7",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/524fee6525dd55e7",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304923525,
+        "stop" : 1642305037014,
+        "duration" : 113489
+      }
+    }, {
+      "uid" : "bf02361737da927c",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/bf02361737da927c",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304923525,
+        "stop" : 1642305037014,
+        "duration" : 113489
+      }
+    }, {
+      "uid" : "c830854186b2a0db",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c830854186b2a0db",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304923525,
+        "stop" : 1642305037014,
+        "duration" : 113489
+      }
+    }, {
+      "uid" : "5e2fd0ff6f42a8a2",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: Legal Privacy || Actual: ): expected '' to equal 'Legal Privacy'",
+      "time" : {
+        "start" : 1642304923525,
+        "stop" : 1642305037014,
+        "duration" : 113489
+      }
+    } ]
+  },
+  "3dd297bbb530278a332e1060feff9fc5" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "4640b53df9392b8b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4640b53df9392b8b",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303512932,
+        "stop" : 1642303635949,
+        "duration" : 123017
+      }
+    }, {
+      "uid" : "d1712d55684a443d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d1712d55684a443d",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303512932,
+        "stop" : 1642303635949,
+        "duration" : 123017
+      }
+    }, {
+      "uid" : "1ecea698017e0eff",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1ecea698017e0eff",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303512932,
+        "stop" : 1642303635949,
+        "duration" : 123017
+      }
+    }, {
+      "uid" : "7fb012d53e913133",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/7fb012d53e913133",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303512932,
+        "stop" : 1642303635949,
+        "duration" : 123017
+      }
+    }, {
+      "uid" : "fafa6a91e1494bd2",
+      "status" : "failed",
+      "statusDetails" : "Actual value for \"Case Owner\" does not match expected value in section \"Case Info\" (Expected: CS App Support [External] || Actual: ): expected '' to equal 'CS App Support [External]'",
+      "time" : {
+        "start" : 1642303512932,
+        "stop" : 1642303635949,
+        "duration" : 123017
+      }
+    } ]
+  },
+  "4c3327ba4cec4f175b3b9fafd9540ba2" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3341789368dabd06",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3341789368dabd06",
+      "status" : "failed",
+      "statusDetails" : "Actual success notification message does not match expected value (Expected: Your ticket has been submitted. || Actual: Error fetching contact information): expected 'Error fetching contact information' to equal 'Your ticket has been submitted.'",
+      "time" : {
+        "start" : 1642347757942,
+        "stop" : 1642348299479,
+        "duration" : 541537
+      }
+    }, {
+      "uid" : "867b1fd139b6d798",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/867b1fd139b6d798",
+      "status" : "failed",
+      "statusDetails" : "Actual success notification message does not match expected value (Expected: Your ticket has been submitted. || Actual: Error fetching contact information): expected 'Error fetching contact information' to equal 'Your ticket has been submitted.'",
+      "time" : {
+        "start" : 1642347757942,
+        "stop" : 1642348299479,
+        "duration" : 541537
+      }
+    } ]
+  }
+}

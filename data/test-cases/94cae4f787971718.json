@@ -1,0 +1,3134 @@
+{
+  "uid" : "94cae4f787971718",
+  "name" : "Verify various combination of category, sub-category and detail-category - TEST 1",
+  "fullName" : "CASE CATEGORY COMBINATION.Verify various combination of category, sub-category and detail-category - TEST 1",
+  "historyId" : "1aafe11327da53536942a602cae1b84",
+  "time" : {
+    "start" : 1642352697359,
+    "stop" : 1642353532503,
+    "duration" : 835144
+  },
+  "description" : "Validate that various combination of category, sub-category and detail-category are available and relevant mandatory fields are displayed",
+  "descriptionHtml" : "<p>Validate that various combination of category, sub-category and detail-category are available and relevant mandatory fields are displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1642352697375,
+        "stop" : 1642352725539,
+        "duration" : 28164
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to URL: https://twitchsupport--test.lightning.force.com/",
+        "time" : {
+          "start" : 1642352698724,
+          "stop" : 1642352698724,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"daarindo@justin.tv.twitchsupport.test\" in username textbox",
+        "time" : {
+          "start" : 1642352699818,
+          "stop" : 1642352699818,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Entered \"*******\" in password textbox",
+        "time" : {
+          "start" : 1642352700931,
+          "stop" : 1642352700931,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked on \"Login\" button",
+        "time" : {
+          "start" : 1642352725203,
+          "stop" : 1642352725203,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Closed all open tabs",
+        "time" : {
+          "start" : 1642352725538,
+          "stop" : 1642352725538,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Navigate to contact url",
+      "time" : {
+        "start" : 1642352725539,
+        "stop" : 1642352742941,
+        "duration" : 17402
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigated to contact URL: https://twitchsupport--test.lightning.force.com/lightning/r/Contact/0033a00002V4HEeAAN/view",
+        "time" : {
+          "start" : 1642352742941,
+          "stop" : 1642352742941,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Log in to experience as user",
+      "time" : {
+        "start" : 1642352742941,
+        "stop" : 1642352765342,
+        "duration" : 22401
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"Experience As User\" button",
+        "time" : {
+          "start" : 1642352765342,
+          "stop" : 1642352765342,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Open Contact Support",
+      "time" : {
+        "start" : 1642352765342,
+        "stop" : 1642352776251,
+        "duration" : 10909
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked on \"\" user-profile link",
+        "time" : {
+          "start" : 1642352766023,
+          "stop" : 1642352766023,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicked \"Contact Support\" link",
+        "time" : {
+          "start" : 1642352776251,
+          "stop" : 1642352776251,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642352776267,
+        "stop" : 1642352807236,
+        "duration" : 30969
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642352785728,
+          "stop" : 1642352785728,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Affiliates)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642352785968,
+          "stop" : 1642352785968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642352807236,
+          "stop" : 1642352807236,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642352807236,
+          "stop" : 1642352807236,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642352807236,
+          "stop" : 1642352807236,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642352807236,
+        "stop" : 1642352839020,
+        "duration" : 31784
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642352816733,
+          "stop" : 1642352816733,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Affiliates)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642352817056,
+          "stop" : 1642352817056,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Connecting to chat\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642352817402,
+          "stop" : 1642352817402,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642352839020,
+          "stop" : 1642352839020,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642352839020,
+          "stop" : 1642352839020,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642352839020,
+          "stop" : 1642352839020,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642352839020,
+        "stop" : 1642352870650,
+        "duration" : 31630
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642352847329,
+          "stop" : 1642352847329,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Affiliates)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642352847556,
+          "stop" : 1642352847556,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Broadcasting\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642352847774,
+          "stop" : 1642352847774,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642352870650,
+          "stop" : 1642352870650,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642352870650,
+          "stop" : 1642352870650,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642352870650,
+          "stop" : 1642352870650,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642352870650,
+        "stop" : 1642352904393,
+        "duration" : 33743
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642352880967,
+          "stop" : 1642352880967,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Affiliates)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642352882216,
+          "stop" : 1642352882216,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"I'm having an issue exporting a video\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642352883294,
+          "stop" : 1642352883294,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642352904393,
+          "stop" : 1642352904393,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642352904393,
+          "stop" : 1642352904393,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642352904393,
+          "stop" : 1642352904393,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642352904393,
+        "stop" : 1642352935962,
+        "duration" : 31569
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642352913979,
+          "stop" : 1642352913979,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Affiliates)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642352914486,
+          "stop" : 1642352914486,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Receiving emails\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642352915135,
+          "stop" : 1642352915135,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642352935962,
+          "stop" : 1642352935962,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642352935962,
+          "stop" : 1642352935962,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642352935962,
+          "stop" : 1642352935962,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642352935962,
+        "stop" : 1642352968472,
+        "duration" : 32510
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642352945538,
+          "stop" : 1642352945538,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Affiliates)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642352946249,
+          "stop" : 1642352946249,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Stats not updating\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642352947747,
+          "stop" : 1642352947747,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642352968472,
+          "stop" : 1642352968472,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642352968472,
+          "stop" : 1642352968472,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642352968472,
+          "stop" : 1642352968472,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642352968472,
+        "stop" : 1642352997298,
+        "duration" : 28826
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642352977107,
+          "stop" : 1642352977107,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Affiliates)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642352977325,
+          "stop" : 1642352977325,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Offboarding\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642352977511,
+          "stop" : 1642352977511,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642352997298,
+          "stop" : 1642352997298,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642352997298,
+          "stop" : 1642352997298,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642352997298,
+          "stop" : 1642352997298,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642352997298,
+        "stop" : 1642353026222,
+        "duration" : 28924
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353005031,
+          "stop" : 1642353005031,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Affiliates)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353005519,
+          "stop" : 1642353005519,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"My channel is appearing offline\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353005753,
+          "stop" : 1642353005753,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353026222,
+          "stop" : 1642353026222,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353026222,
+          "stop" : 1642353026222,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353026222,
+          "stop" : 1642353026222,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353026222,
+        "stop" : 1642353055820,
+        "duration" : 29598
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353035439,
+          "stop" : 1642353035439,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Affiliates)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353035685,
+          "stop" : 1642353035685,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Getting notifications\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353035945,
+          "stop" : 1642353035945,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353055820,
+          "stop" : 1642353055820,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353055820,
+          "stop" : 1642353055820,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353055820,
+          "stop" : 1642353055820,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353055820,
+        "stop" : 1642353081224,
+        "duration" : 25404
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Affiliates\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353061102,
+          "stop" : 1642353061102,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Affiliates)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353061332,
+          "stop" : 1642353061332,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Logging in\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353061521,
+          "stop" : 1642353061521,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353081224,
+          "stop" : 1642353081224,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353081224,
+          "stop" : 1642353081224,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353081224,
+          "stop" : 1642353081224,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353081224,
+        "stop" : 1642353107088,
+        "duration" : 25864
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353090078,
+          "stop" : 1642353090078,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353090340,
+          "stop" : 1642353090340,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Suspension\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353091317,
+          "stop" : 1642353091317,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Available Fields: Date Of Suspension, IP Address, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353107088,
+          "stop" : 1642353107088,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Error Codes, Invoice Numbers, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select",
+        "time" : {
+          "start" : 1642353107088,
+          "stop" : 1642353107088,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(true), Error Codes(false), Invoice Numbers(false), IP Address(true), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(true), Community Guidelines(true)",
+        "time" : {
+          "start" : 1642353107088,
+          "stop" : 1642353107088,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353107088,
+          "stop" : 1642353107088,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 7
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353107088,
+        "stop" : 1642353134606,
+        "duration" : 27518
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353114200,
+          "stop" : 1642353114200,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353114515,
+          "stop" : 1642353114515,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"My channel is appearing offline\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353114938,
+          "stop" : 1642353114938,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353134606,
+          "stop" : 1642353134606,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353134606,
+          "stop" : 1642353134606,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353134606,
+          "stop" : 1642353134606,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353134606,
+        "stop" : 1642353161934,
+        "duration" : 27328
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353141758,
+          "stop" : 1642353141758,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353142044,
+          "stop" : 1642353142044,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"I'm having an issue exporting a video\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353142390,
+          "stop" : 1642353142390,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353161934,
+          "stop" : 1642353161934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353161934,
+          "stop" : 1642353161934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353161934,
+          "stop" : 1642353161934,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353161934,
+        "stop" : 1642353189182,
+        "duration" : 27248
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353169229,
+          "stop" : 1642353169229,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353169424,
+          "stop" : 1642353169424,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Connecting to chat\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353169609,
+          "stop" : 1642353169609,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353189182,
+          "stop" : 1642353189182,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353189182,
+          "stop" : 1642353189182,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353189182,
+          "stop" : 1642353189182,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353189182,
+        "stop" : 1642353216872,
+        "duration" : 27690
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353196889,
+          "stop" : 1642353196889,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353197094,
+          "stop" : 1642353197094,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Broadcasting\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353197298,
+          "stop" : 1642353197298,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353216872,
+          "stop" : 1642353216872,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353216872,
+          "stop" : 1642353216872,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353216872,
+          "stop" : 1642353216872,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353216872,
+        "stop" : 1642353242375,
+        "duration" : 25503
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353222141,
+          "stop" : 1642353222141,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353222365,
+          "stop" : 1642353222365,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Receiving emails\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353222583,
+          "stop" : 1642353222583,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353242375,
+          "stop" : 1642353242375,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353242375,
+          "stop" : 1642353242375,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353242375,
+          "stop" : 1642353242375,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353242375,
+        "stop" : 1642353267786,
+        "duration" : 25411
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353247656,
+          "stop" : 1642353247656,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353247932,
+          "stop" : 1642353247932,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Logging in\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353248128,
+          "stop" : 1642353248128,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353267786,
+          "stop" : 1642353267786,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353267786,
+          "stop" : 1642353267786,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353267786,
+          "stop" : 1642353267786,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353267786,
+        "stop" : 1642353296946,
+        "duration" : 29160
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353275921,
+          "stop" : 1642353275921,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353276169,
+          "stop" : 1642353276169,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Changing username\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353276398,
+          "stop" : 1642353276398,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353296946,
+          "stop" : 1642353296946,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353296946,
+          "stop" : 1642353296946,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353296946,
+          "stop" : 1642353296946,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353296946,
+        "stop" : 1642353326854,
+        "duration" : 29908
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353306913,
+          "stop" : 1642353306913,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353307199,
+          "stop" : 1642353307199,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353326854,
+          "stop" : 1642353326854,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353326854,
+          "stop" : 1642353326854,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353326854,
+          "stop" : 1642353326854,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353326854,
+        "stop" : 1642353354480,
+        "duration" : 27626
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353334274,
+          "stop" : 1642353334274,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353334542,
+          "stop" : 1642353334542,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Getting notifications\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353334757,
+          "stop" : 1642353334757,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353354480,
+          "stop" : 1642353354480,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353354480,
+          "stop" : 1642353354480,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353354480,
+          "stop" : 1642353354480,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353354480,
+        "stop" : 1642353382029,
+        "duration" : 27549
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Partner\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353361861,
+          "stop" : 1642353361861,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Account (Partners)\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353362203,
+          "stop" : 1642353362203,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Stats not updating\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353362505,
+          "stop" : 1642353362505,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353382029,
+          "stop" : 1642353382029,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353382029,
+          "stop" : 1642353382029,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353382029,
+          "stop" : 1642353382029,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353382029,
+        "stop" : 1642353409307,
+        "duration" : 27278
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"General\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353389319,
+          "stop" : 1642353389319,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Affiliate Onboarding\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353389661,
+          "stop" : 1642353389661,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353409307,
+          "stop" : 1642353409307,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353409307,
+          "stop" : 1642353409307,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353409307,
+          "stop" : 1642353409307,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353409307,
+        "stop" : 1642353433706,
+        "duration" : 24399
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Privacy Questions\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353417255,
+          "stop" : 1642353417255,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Age Suspension Appeal\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353417551,
+          "stop" : 1642353417551,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Available Fields: Additional Email, Date Of Birth, IP Address, Phone Number",
+        "time" : {
+          "start" : 1642353433706,
+          "stop" : 1642353433706,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Channel Name, Date Of Suspension, Error Codes, Invoice Numbers, Netz DG, Payment Type, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353433706,
+          "stop" : 1642353433706,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(true), Channel Name(false), Date Of Birth(true), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(true), Netz DG(false), Payment Type(false), Phone Number(true), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353433706,
+          "stop" : 1642353433706,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353433706,
+          "stop" : 1642353433706,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353433706,
+        "stop" : 1642353457222,
+        "duration" : 23516
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Privacy Questions\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353440683,
+          "stop" : 1642353440683,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Age Suspension Appeal\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353440941,
+          "stop" : 1642353440941,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"I was suspended due to being underage (Under 13)\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353441500,
+          "stop" : 1642353441500,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Available Fields: Additional Email, Date Of Birth, IP Address, Phone Number",
+        "time" : {
+          "start" : 1642353457222,
+          "stop" : 1642353457222,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Channel Name, Date Of Suspension, Error Codes, Invoice Numbers, Netz DG, Payment Type, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353457222,
+          "stop" : 1642353457222,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(true), Channel Name(false), Date Of Birth(true), Date Of Suspension(false), Error Codes(false), Invoice Numbers(false), IP Address(true), Netz DG(false), Payment Type(false), Phone Number(true), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353457222,
+          "stop" : 1642353457222,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353457222,
+          "stop" : 1642353457222,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 7
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353457222,
+        "stop" : 1642353482657,
+        "duration" : 25435
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Purchases\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353464338,
+          "stop" : 1642353464338,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Bits\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353464569,
+          "stop" : 1642353464569,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Cheer leaderboard / Chat Badge issue\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353465078,
+          "stop" : 1642353465078,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Available Fields: Channel Name, Error Codes",
+        "time" : {
+          "start" : 1642353482657,
+          "stop" : 1642353482657,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Date Of Birth, Date Of Suspension, Invoice Numbers, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353482657,
+          "stop" : 1642353482657,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(true), Date Of Birth(false), Date Of Suspension(false), Error Codes(true), Invoice Numbers(false), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353482657,
+          "stop" : 1642353482657,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353482657,
+          "stop" : 1642353482657,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 7
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353482657,
+        "stop" : 1642353507082,
+        "duration" : 24425
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Purchases\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353489576,
+          "stop" : 1642353489576,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Bits\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353489826,
+          "stop" : 1642353489826,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Cheering Issue\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353490297,
+          "stop" : 1642353490297,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Available Fields: Channel Name, Error Codes, Invoice Numbers",
+        "time" : {
+          "start" : 1642353507082,
+          "stop" : 1642353507082,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Date Of Birth, Date Of Suspension, IP Address, Netz DG, Payment Type, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353507082,
+          "stop" : 1642353507082,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(true), Date Of Birth(false), Date Of Suspension(false), Error Codes(true), Invoice Numbers(true), IP Address(false), Netz DG(false), Payment Type(false), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353507082,
+          "stop" : 1642353507082,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353507082,
+          "stop" : 1642353507082,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 7
+    }, {
+      "name" : "Category Combination",
+      "time" : {
+        "start" : 1642353507082,
+        "stop" : 1642353532503,
+        "duration" : 25421
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Option value/index \"Purchases\" selected from category dropdown",
+        "time" : {
+          "start" : 1642353514169,
+          "stop" : 1642353514169,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Bits\" selected from sub-category dropdown",
+        "time" : {
+          "start" : 1642353514376,
+          "stop" : 1642353514376,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Option value/index \"Bits not received after purchase\" selected from detail-category dropdown",
+        "time" : {
+          "start" : 1642353514748,
+          "stop" : 1642353514748,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Available Fields: Invoice Numbers, Payment Type",
+        "time" : {
+          "start" : 1642353532503,
+          "stop" : 1642353532503,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Unavailable Fields: Additional Email, Channel Name, Date Of Birth, Date Of Suspension, Error Codes, IP Address, Netz DG, Phone Number, Refund Reason, Purchase Select, Service Agreement, Community Guidelines",
+        "time" : {
+          "start" : 1642353532503,
+          "stop" : 1642353532503,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Passed Fields: Additional Email(false), Channel Name(false), Date Of Birth(false), Date Of Suspension(false), Error Codes(false), Invoice Numbers(true), IP Address(false), Netz DG(false), Payment Type(true), Phone Number(false), Refund Reason(false), Purchase Select(false), Service Agreement(false), Community Guidelines(false)",
+        "time" : {
+          "start" : 1642353532503,
+          "stop" : 1642353532503,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Category combination check passed for drop down values and it's relevant mandatory fields",
+        "time" : {
+          "start" : 1642353532503,
+          "stop" : 1642353532503,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 7
+    } ],
+    "attachments" : [ {
+      "uid" : "9b34269049969642",
+      "name" : "Console Logs",
+      "source" : "9b34269049969642.html",
+      "type" : "text/html",
+      "size" : 68539
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 204
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "CASE CATEGORY COMBINATION"
+  }, {
+    "name" : "testClass",
+    "value" : "CASE CATEGORY COMBINATION"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify various combination of category, sub-category and detail-category - TEST 1"
+  }, {
+    "name" : "package",
+    "value" : "CASE CATEGORY COMBINATION"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94cae4f787971718.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

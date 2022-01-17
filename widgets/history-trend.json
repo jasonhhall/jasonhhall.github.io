@@ -1,0 +1,58 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo Allure Report",
+  "data" : {
+    "failed" : 34,
+    "broken" : 11,
+    "skipped" : 0,
+    "passed" : 22,
+    "unknown" : 0,
+    "total" : 67
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo Allure Report",
+  "data" : {
+    "failed" : 34,
+    "broken" : 4,
+    "skipped" : 0,
+    "passed" : 18,
+    "unknown" : 0,
+    "total" : 56
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo Allure Report",
+  "data" : {
+    "failed" : 33,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 11,
+    "unknown" : 0,
+    "total" : 46
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo Allure Report",
+  "data" : {
+    "failed" : 26,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 28
+  }
+}, {
+  "data" : {
+    "failed" : 26,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 26
+  }
+} ]
